@@ -1,0 +1,3551 @@
+[
+  {
+    "word_name": "woman",
+    "word_def": [
+      {
+        "meta": {
+          "id": "woman",
+          "uuid": "eeba90f0-a933-44b4-b115-9b7fd0c6effc",
+          "sort": "230204100",
+          "user_comments": "no",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["woman", "womanless", "women"],
+          "offensive": false
+        },
+        "hwi": {
+          "hw": "wom*an",
+          "prs": [
+            {
+              "mw": "\u02c8wu\u0307-m\u0259n",
+              "sound": { "audio": "woman003", "ref": "c", "stat": "1" }
+            },
+            {
+              "l": "especially Southern",
+              "mw": "\u02c8w\u014d-",
+              "sound": { "audio": "woman001", "ref": "c", "stat": "1" }
+            },
+            {
+              "l": "or",
+              "mw": "\u02c8w\u0259-",
+              "sound": { "audio": "woman002", "ref": "c", "stat": "1" }
+            }
+          ]
+        },
+        "fl": "noun",
+        "ins": [
+          {
+            "il": "plural",
+            "if": "wom*en",
+            "prs": [
+              {
+                "mw": "\u02c8wi-m\u0259n",
+                "sound": { "audio": "women001", "ref": "c", "stat": "1" }
+              }
+            ]
+          }
+        ],
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "1 a",
+                    "dt": [["text", "{bc}an adult female person"]]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "b",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a woman belonging to a particular category (as by birth, residence, membership, or occupation) "
+                      ],
+                      [
+                        "uns",
+                        [
+                          [
+                            ["text", "usually used in combination "],
+                            ["vis", [{ "t": "council{it}woman{/it}" }]]
+                          ]
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  { "sn": "2", "dt": [["text", "{bc}{sx|womankind||}"]] }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "3",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}distinctively feminine nature {bc}{sx|womanliness||}"
+                      ]
+                    ]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "4",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a woman who is a servant or personal attendant"
+                      ]
+                    ]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "5 a",
+                    "sls": ["chiefly dialectal"],
+                    "dt": [["text", "{bc}{sx|wife||}"]]
+                  }
+                ],
+                [
+                  "sense",
+                  { "sn": "b", "dt": [["text", "{bc}{sx|mistress||}"]] }
+                ],
+                [
+                  "sense",
+                  { "sn": "c", "dt": [["text", "{bc}{sx|girlfriend||2}"]] }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "6",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a woman who is extremely fond of or devoted to something specified "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "I'm a chocolate {wi}woman{/wi} through and through, but one bite of West's banana pudding cupcake and I was sold.",
+                            "aq": { "auth": "Hattie Brown Garrow" }
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "uros": [
+          { "ure": "woman", "fl": "adjective" },
+          {
+            "ure": "wom*an*less",
+            "prs": [
+              {
+                "mw": "\u02c8wu\u0307-m\u0259n-l\u0259s",
+                "sound": { "audio": "womanl01", "ref": "c", "stat": "1" }
+              },
+              { "l": "especially Southern", "mw": "\u02c8w\u014d-" },
+              { "l": "or", "mw": "\u02c8w\u0259-" }
+            ],
+            "fl": "adjective"
+          }
+        ],
+        "et": [
+          [
+            "text",
+            "Middle English, from Old English {it}w\u012bfman{/it}, from {it}w\u012bf{/it} woman, wife + {it}man{/it} human being, man"
+          ]
+        ],
+        "date": "before 12th century{ds||1|a|}",
+        "shortdef": [
+          "an adult female person",
+          "a woman belonging to a particular category (as by birth, residence, membership, or occupation) \u2014usually used in combination",
+          "womankind"
+        ]
+      },
+      {
+        "meta": {
+          "id": "woman of color",
+          "uuid": "15a32900-7643-45db-900f-5d066ed3efac",
+          "sort": "230205050",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["woman of color", "women of color"],
+          "offensive": false
+        },
+        "hwi": { "hw": "woman of color" },
+        "fl": "noun",
+        "ins": [{ "il": "plural", "if": "women of color" }],
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a woman whose skin {d_link|pigmentation|pigmentation} is other than and especially darker than what is considered characteristic of people typically defined as white {dx_def}see {dxt|white:1||2a}{/dx_def} {bc}a woman who is of a race {dx_def}see {dxt|race:1||1a}{/dx_def} other than white or who is of mixed race "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "\u2026 Sen. Kamala Harris of California, will become the first {wi}woman of color{/wi} to accept a major party's vice presidential nomination on Wednesday.",
+                            "aq": { "auth": "Steve Peoples" }
+                          },
+                          {
+                            "t": "In reality the 19th Amendment failed to enfranchise thousands of American {wi}women of color{/wi}\u2014Black, Asian, Latina and Native American.",
+                            "aq": { "auth": "Anna Bloom" }
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1791",
+        "shortdef": [
+          "a woman whose skin pigmentation is other than and especially darker than what is considered characteristic of people typically defined as white : a woman who is of a race other than white or who is of mixed race"
+        ]
+      },
+      {
+        "meta": {
+          "id": "woman of ill repute",
+          "uuid": "e421e152-b7c0-496d-84c3-27afc949d5e8",
+          "sort": "230205075",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["woman of ill repute", "women of ill repute"],
+          "offensive": true
+        },
+        "hwi": { "hw": "woman of ill repute" },
+        "fl": "noun phrase",
+        "ins": [{ "il": "plural", "if": "women of ill repute" }],
+        "def": [
+          {
+            "sls": ["disparaging"],
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a woman who engages in sex acts and especially sexual intercourse in exchange for pay {bc}a woman who is a {d_link|sex worker|sex worker}"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1720",
+        "shortdef": [
+          "a woman who engages in sex acts and especially sexual intercourse in exchange for pay : a woman who is a sex worker"
+        ]
+      },
+      {
+        "meta": {
+          "id": "woman of letters",
+          "uuid": "8b448f74-a4b5-40ff-94d1-291231d7b5a4",
+          "sort": "230205100",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["woman of letters", "women of letters"],
+          "offensive": false
+        },
+        "hwi": { "hw": "woman of letters" },
+        "fl": "noun phrase",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "1",
+                    "dt": [["text", "{bc}a woman who is a scholar"]]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "2",
+                    "dt": [["text", "{bc}a woman who is an author"]]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1818{ds||1||}",
+        "shortdef": ["a woman who is a scholar", "a woman who is an author"]
+      },
+      {
+        "meta": {
+          "id": "woman of the street",
+          "uuid": "f18b4b6f-52bc-46a7-88d0-02fc142deafc",
+          "sort": "230205200",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["woman of the street", "women of the street"],
+          "offensive": true
+        },
+        "hwi": { "hw": "woman of the street" },
+        "fl": "noun phrase",
+        "ins": [{ "il": "plural", "if": "women of the street" }],
+        "def": [
+          {
+            "sls": ["disparaging"],
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a woman who engages in sex acts and especially sexual intercourse in exchange for pay {bc}a woman who is a {d_link|sex worker|sex worker}"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1910",
+        "shortdef": [
+          "a woman who engages in sex acts and especially sexual intercourse in exchange for pay : a woman who is a sex worker"
+        ]
+      },
+      {
+        "meta": {
+          "id": "woman's rights",
+          "uuid": "d009f170-c63d-43db-ac63-e515bdcdfe96",
+          "sort": "230205400",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["woman's rights"],
+          "offensive": false
+        },
+        "hwi": { "hw": "woman's rights" },
+        "fl": "plural noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  { "sn": "1", "dt": [["text", "{bc}{sx|women's rights||}"]] }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "2",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}organized activity on behalf of women's rights and interests {bc}{sx|feminism||}"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1773{ds||1||}",
+        "shortdef": [
+          "women's rights",
+          "organized activity on behalf of women's rights and interests : feminism"
+        ]
+      },
+      {
+        "meta": {
+          "id": "woman suffrage",
+          "uuid": "2a5440e5-9860-4efd-93bd-766dc59153f5",
+          "sort": "230205500",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["woman suffrage", "woman suffrages"],
+          "offensive": false
+        },
+        "hwi": { "hw": "woman suffrage" },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}possession and exercise of suffrage by women"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1846",
+        "shortdef": ["possession and exercise of suffrage by women"]
+      },
+      {
+        "meta": {
+          "id": "woman of the world",
+          "uuid": "6850d9b4-44d4-41fb-bab4-c5aeac01703d",
+          "sort": "3022867000",
+          "src": "ld",
+          "section": "idioms",
+          "stems": ["woman of the world"],
+          "offensive": false
+        },
+        "hwi": { "hw": "woman of the world" },
+        "fl": "noun phrase",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a woman who has had many experiences and who is not shocked by things that may be shocking to other people"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "shortdef": [
+          "a woman who has had many experiences and who is not shocked by things that may be shocking to other people"
+        ]
+      },
+      {
+        "meta": {
+          "id": "woman's/feminine touch",
+          "uuid": "2447f9dc-2e25-42e2-b5b3-ede70e95860b",
+          "sort": "3022868000",
+          "src": "ld",
+          "section": "idioms",
+          "stems": [
+            "feminine touch",
+            "woman's touch",
+            "woman's/feminine touch"
+          ],
+          "offensive": false
+        },
+        "hwi": { "hw": "woman's/feminine touch" },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}something created by and suitable to a girl or woman "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "This room needs a {it}woman's/feminine touch{/it}."
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "shortdef": ["something created by and suitable to a girl or woman"]
+      },
+      {
+        "meta": {
+          "id": "anti-woman",
+          "uuid": "eb022eba-bb24-4541-aebb-0ede2b77f411",
+          "sort": "013238250",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["anti-woman"],
+          "offensive": false
+        },
+        "hwi": {
+          "hw": "an*ti-wom*an",
+          "prs": [
+            { "mw": "\u02ccan-t\u0113-\u02c8wu\u0307-m\u0259n" },
+            {
+              "mw": "\u02ccan-t\u012b-",
+              "sound": { "audio": "antiwo01", "ref": "u", "stat": "1" }
+            },
+            { "l": "especially Southern", "mw": "-\u02c8w\u014d-" },
+            { "l": "or", "mw": "-\u02c8w\u0259-" }
+          ]
+        },
+        "fl": "adjective",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}characterized by or expressing hostility or discrimination toward women "
+                      ],
+                      [
+                        "vis",
+                        [
+                          { "t": "{wi}anti-woman{/wi} lyrics" },
+                          { "t": "{wi}anti-woman{/wi} sentiments" }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1841",
+        "shortdef": [
+          "characterized by or expressing hostility or discrimination toward women"
+        ]
+      }
+    ]
+  },
+  {
+    "word_name": "disability",
+    "word_def": [
+      {
+        "meta": {
+          "id": "disability",
+          "uuid": "22cb0a78-90fb-4aa0-86b5-49272f83aade",
+          "sort": "042407000",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["disabilities", "disability"],
+          "offensive": false
+        },
+        "hwi": {
+          "hw": "dis*abil*i*ty",
+          "prs": [
+            {
+              "mw": "\u02ccdis-\u0259-\u02c8bi-l\u0259-t\u0113",
+              "sound": { "audio": "disabi01", "ref": "c", "stat": "1" }
+            }
+          ]
+        },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "1",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a physical, mental, cognitive, or developmental condition that impairs, interferes with, or limits a person's ability to engage in certain tasks or actions or participate in typical daily activities and interactions "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "Scientists have tentatively linked the reading {wi}disability{/wi} known as dyslexia to a bevy of brain disturbances.",
+                            "aq": { "source": "{it}Science News{/it}" }
+                          },
+                          {
+                            "t": "How, with his severe {wi}disability{/wi}, has Hawking been able to out-think and out-intuit his leading colleague-competitors \u2026",
+                            "aq": { "auth": "Kip S. Thorne" }
+                          },
+                          {
+                            "t": "Yet one ends up admiring him for his devotion to the {wi}disability{/wi} that could have unmade his career as an actor. It is through his deafness that we hear his story.",
+                            "aq": { "auth": "Lennard J. Davis" }
+                          }
+                        ]
+                      ]
+                    ],
+                    "sdsense": {
+                      "sd": "also",
+                      "dt": [
+                        ["text", "{bc}impaired function or ability "],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "Sarcopenia is a loss of muscle mass and strength that normally occurs with aging, and it's a major cause of frailty and {wi}disability{/wi} in the elderly.",
+                              "aq": { "auth": "Andrew Weil" }
+                            },
+                            {
+                              "t": "Thrombolytic therapy has been used in patients with acute ischemic stroke to restore cerebral blood flow, reduce ischemia, and limit neurologic {wi}disability{/wi}.",
+                              "aq": { "auth": "Werner Hacke" }
+                            }
+                          ]
+                        ],
+                        [
+                          "text",
+                          " {dx}see also {dxt|intellectual disability||}, {dxt|learning disability||}{/dx}"
+                        ]
+                      ]
+                    }
+                  }
+                ]
+              ],
+              [
+                [
+                  "pseq",
+                  [
+                    [
+                      "sense",
+                      {
+                        "sn": "2 a (1)",
+                        "dt": [
+                          [
+                            "text",
+                            "{bc}an impairment (such as a chronic medical condition or injury) that prevents someone from engaging in gainful employment "
+                          ],
+                          [
+                            "vis",
+                            [
+                              {
+                                "t": "\u2026 monthly payment to which a worker is entitled upon retirement or {wi}disability{/wi} under the federal social security system \u2026",
+                                "aq": { "auth": "Robert I. Mehr" }
+                              }
+                            ]
+                          ]
+                        ]
+                      }
+                    ],
+                    [
+                      "sense",
+                      {
+                        "sn": "(2)",
+                        "dt": [
+                          [
+                            "text",
+                            "{bc}an impairment (such as spina bifida) that results in serious functional limitations for a minor"
+                          ]
+                        ]
+                      }
+                    ]
+                  ]
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "b",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a program providing financial support to a person affected by disability "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "\u2026 those who fit the criteria for dysthymia were more likely to have physical and emotional problems and more likely to be on Medicaid or Social Security {wi}disability{/wi} than those with acute depression.",
+                            "aq": { "auth": "Melinda Beck" }
+                          }
+                        ]
+                      ]
+                    ],
+                    "sdsense": {
+                      "sd": "also",
+                      "dt": [
+                        [
+                          "text",
+                          "{bc}the financial support provided by such a program "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "\u2026 he collects {wi}disability{/wi} on account of his exposure to Agent Orange during his years as an Army MP in Vietnam.",
+                              "aq": { "auth": "Jason Fagone" }
+                            }
+                          ]
+                        ]
+                      ]
+                    }
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "3",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a disqualification, restriction, or {a_link|disadvantage} "
+                      ],
+                      ["vis", [{ "t": "economic {wi}disabilities{/wi}" }]]
+                    ]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "4",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}lack of legal qualification to do something "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "\u2026 Defoe \u2026 dramatised the gravity of the problem in the morally desperate expedient which Roxana is forced to adopt to overcome the legal {wi}disabilities{/wi} of women.",
+                            "aq": { "auth": "Ian Watt" }
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "et": [
+          [
+            "text",
+            "{et_link|dis-|dis-} + {et_link|ability|ability}, after {et_link|disable|disable}"
+          ]
+        ],
+        "date": "1545{ds||1||}",
+        "shortdef": [
+          "a physical, mental, cognitive, or developmental condition that impairs, interferes with, or limits a person's ability to engage in certain tasks or actions or participate in typical daily activities and interactions; also : impaired function or ability",
+          "an impairment (such as a chronic medical condition or injury) that prevents someone from engaging in gainful employment",
+          "an impairment (such as spina bifida) that results in serious functional limitations for a minor"
+        ]
+      },
+      {
+        "meta": {
+          "id": "developmental disability",
+          "uuid": "49444cf0-c7b4-4c33-96de-661ab48d8e10",
+          "sort": "041651600",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": [
+            "developmental disabilities",
+            "developmental disability",
+            "developmentally disabled"
+          ],
+          "offensive": false
+        },
+        "hwi": { "hw": "developmental disability" },
+        "fl": "noun",
+        "ins": [{ "il": "plural", "if": "developmental disabilities" }],
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}any of various conditions (such as {d_link|autism spectrum disorder|autism spectrum disorder}, {d_link|cerebral palsy|cerebral palsy}, {d_link|intellectual disability|intellectual disability}, blindness, or {d_link|fragile X syndrome|fragile X syndrome}) that usually become apparent during infancy or childhood and are marked by delayed development or functional limitations especially in learning, language, communication, cognition, behavior, socialization, or mobility "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "Two to three babies in 1,000 have cerebral palsy (CP), making it one of the most common {wi}developmental disabilities{/wi}.",
+                            "aq": { "auth": "Melanie Howard" }
+                          },
+                          {
+                            "t": "Autism is a complex {wi}developmental disability{/wi} that affects how a person communicates and relates to other people.",
+                            "aq": { "auth": "Braema Mathi" }
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "uros": [
+          {
+            "ure": "developmentally disabled",
+            "fl": "adjective",
+            "utxt": [
+              ["vis", [{ "t": "{wi}developmentally disabled{/wi} students" }]]
+            ]
+          }
+        ],
+        "date": "1944",
+        "shortdef": [
+          "any of various conditions (such as autism spectrum disorder, cerebral palsy, intellectual disability, blindness, or fragile X syndrome) that usually become apparent during infancy or childhood and are marked by delayed development or functional limitations especially in learning, language, communication, cognition, behavior, socialization, or mobility"
+        ]
+      },
+      {
+        "meta": {
+          "id": "intellectual disability",
+          "uuid": "a5dc2bd6-bc59-4665-af27-57f657b329ff",
+          "sort": "092025000",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["intellectual disabilities", "intellectual disability"],
+          "offensive": false
+        },
+        "hwi": { "hw": "intellectual disability" },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}mild to severe impairment in intellectual ability equivalent to an IQ of 70 to 75 or below that is accompanied by significant limitations in social, practical, and conceptual skills (as in interpersonal communication, reasoning, or self-care) necessary for independent daily functioning and that has an onset before age 18 "
+                      ],
+                      [
+                        "snote",
+                        [
+                          [
+                            "t",
+                            "The term {it}intellectual disability{/it} is now preferred over {it}mental retardation{/it} in medical, educational, and regulatory contexts, as well as in general use. The term {it}mental retardation{/it} is increasingly considered offensive, though it was the dominant term into the second decade of the current century."
+                          ]
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1809",
+        "shortdef": [
+          "mild to severe impairment in intellectual ability equivalent to an IQ of 70 to 75 or below that is accompanied by significant limitations in social, practical, and conceptual skills (as in interpersonal communication, reasoning, or self-care) necessary for independent daily functioning and that has an onset before age 18"
+        ]
+      },
+      {
+        "meta": {
+          "id": "learning disability",
+          "uuid": "fea066e6-39e5-48e7-a0ef-5f494a93a52f",
+          "sort": "120089600",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": [
+            "learning difference",
+            "learning disabilities",
+            "learning disability",
+            "learning disabled"
+          ],
+          "offensive": false
+        },
+        "hwi": { "hw": "learning disability" },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}any of various conditions (such as {d_link|dyslexia|dyslexia} or {d_link|dysgraphia|dysgraphia}) that interfere with an individual's ability to learn and so result in impaired functioning in language, reasoning, or academic skills (such as reading, writing, and mathematics) and that are thought to be caused by difficulties in processing and integrating information "
+                      ],
+                      [
+                        "ca",
+                        {
+                          "intro": "called also",
+                          "cats": [{ "cat": "learning difference" }]
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "uros": [{ "ure": "learning disabled", "fl": "adjective" }],
+        "date": "1936",
+        "shortdef": [
+          "any of various conditions (such as dyslexia or dysgraphia) that interfere with an individual's ability to learn and so result in impaired functioning in language, reasoning, or academic skills (such as reading, writing, and mathematics) and that are thought to be caused by difficulties in processing and integrating information \u2014called also learning difference"
+        ]
+      }
+    ]
+  },
+  {
+    "word_name": "peanut allergies",
+    "word_def": [
+      "allergies",
+      "peanut galleries",
+      "peanut gallery",
+      "antiallergic",
+      "metallurgies",
+      "anti-allergic",
+      "peanut oils",
+      "pyrometallurgies",
+      "potential energies",
+      "powder metallurgies",
+      "analogies",
+      "anergies",
+      "anti-allergy",
+      "antiallergenic",
+      "at all times",
+      "energies",
+      "fly galleries",
+      "galleries",
+      "lethargies",
+      "nonallergic"
+    ]
+  },
+  {
+    "word_name": "minority",
+    "word_def": [
+      {
+        "meta": {
+          "id": "minority",
+          "uuid": "cee521dd-5dd9-4ff3-bc38-2f019c209011",
+          "sort": "132938000",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["minorities", "minority"],
+          "offensive": false
+        },
+        "hwi": {
+          "hw": "mi*nor*i*ty",
+          "prs": [
+            {
+              "mw": "m\u0259-\u02c8n\u022fr-\u0259-t\u0113",
+              "sound": { "audio": "minori02", "ref": "c", "stat": "1" }
+            },
+            { "mw": "m\u012b-" },
+            { "mw": "-\u02c8n\u00e4r-" }
+          ]
+        },
+        "fl": "noun",
+        "ins": [{ "il": "plural", "ifc": "-ties", "if": "mi*nor*i*ties" }],
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "1 a",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}the smaller in number of two groups constituting a whole "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "The proposition was opposed by a {wi}minority{/wi} of voters."
+                          }
+                        ]
+                      ],
+                      [
+                        "text",
+                        " {bc}a number or percentage equaling less than half of a total "
+                      ],
+                      [
+                        "vis",
+                        [
+                          { "t": "a one-third {wi}minority{/wi}" },
+                          {
+                            "t": "\u2026 a {wi}minority{/wi} of votes can translate into a majority of seats.",
+                            "aq": { "auth": "Carlos Lozada" }
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "b",
+                    "dt": [
+                      ["text", "{bc}the smaller quantity or share "],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "Teams in possession of the ball for a majority of the time have been no more likely to win than those in possession for a {wi}minority{/wi} of the time.",
+                            "aq": { "auth": "Kevin Pullein" }
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "2",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}the group or political party having the smaller number of votes "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "the Democratic/Republican {wi}minority{/wi} in the Senate"
+                          }
+                        ]
+                      ],
+                      [
+                        "uns",
+                        [
+                          [
+                            ["text", "often used before another noun "],
+                            [
+                              "vis",
+                              [
+                                {
+                                  "t": "a U.S. Senate {wi}minority{/wi} leader"
+                                }
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "3 a",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a part of a population thought of as differing from the rest of the population in some characteristics and often subjected to differential treatment "
+                      ],
+                      [
+                        "vis",
+                        [
+                          { "t": "the country's ethnic {wi}minorities{/wi}" },
+                          { "t": "{wi}minority{/wi} communities" }
+                        ]
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "b",
+                    "dt": [
+                      ["text", "{bc}a member of a minority group "],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "\"\u2026 Speaking as a {wi}minority{/wi}, it's even more satisfying to see women have the chance to follow their dreams. \u2026\"",
+                            "aq": {
+                              "auth": "Isiah Thomas",
+                              "source": "quoted in {it}Newsweek{/it}"
+                            }
+                          },
+                          { "t": "a {wi}minority{/wi} student" },
+                          { "t": "a {wi}minority{/wi}-owned business" }
+                        ]
+                      ],
+                      [
+                        "uns",
+                        [
+                          [
+                            ["text", "often used in plural "],
+                            [
+                              "vis",
+                              [
+                                {
+                                  "t": "Doctors are struggling to comply with new federal guidelines requiring them to include more {wi}minorities{/wi} in clinical trials \u2026",
+                                  "aq": { "auth": "Douglas Stanglin et al." }
+                                }
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "4 a",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}the period before a person reaches the age of majority {dx_def}see {dxt|majority|majority|2a}{/dx_def}"
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "b",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}the state of being a legal {d_link|minor|minor:2}"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "15th century{ds||4|a|}",
+        "shortdef": [
+          "the smaller in number of two groups constituting a whole : a number or percentage equaling less than half of a total",
+          "the smaller quantity or share",
+          "the group or political party having the smaller number of votes \u2014often used before another noun"
+        ]
+      },
+      {
+        "meta": {
+          "id": "minority leader",
+          "uuid": "f9c5d730-a267-4983-82b5-56e1bcfad0ce",
+          "sort": "132939000",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["minority leader", "minority leaders"],
+          "offensive": false
+        },
+        "hwi": { "hw": "minority leader" },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}the leader of the minority party in a legislative body"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1909",
+        "shortdef": ["the leader of the minority party in a legislative body"]
+      },
+      {
+        "meta": {
+          "id": "in the minority",
+          "uuid": "8248c228-7c03-4807-b731-ecc18794994d",
+          "sort": "3009983000",
+          "src": "ld",
+          "section": "idioms",
+          "stems": ["in the minority"],
+          "offensive": false
+        },
+        "hwi": { "hw": "in the minority" },
+        "fl": "idiom",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}being of a number less than half the total "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "Opponents of the new law appear to be {it}in the minority{/it}."
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "shortdef": ["being of a number less than half the total"]
+      }
+    ]
+  },
+  {
+    "word_name": "gender",
+    "word_def": [
+      {
+        "meta": {
+          "id": "gender:1",
+          "uuid": "8a379a91-d0e9-4c37-8e8d-16a5039959ce",
+          "sort": "070681000",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["gender", "genders"],
+          "offensive": false
+        },
+        "hom": 1,
+        "hwi": {
+          "hw": "gen*der",
+          "prs": [
+            {
+              "mw": "\u02c8jen-d\u0259r",
+              "sound": { "audio": "gender01", "ref": "c", "stat": "1" }
+            }
+          ]
+        },
+        "fl": "noun",
+        "ins": [{ "il": "plural", "if": "gen*ders" }],
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "1 a",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a subclass within a grammatical class (such as noun, pronoun, adjective, or verb) of a language that is partly arbitrary but also partly based on distinguishable characteristics (such as shape, social rank, manner of existence, or sex) and that determines agreement with and selection of other words or grammatical forms{dx}see also {dxt|natural gender|natural gender|}{/dx}"
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "b",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}membership of a word or a grammatical form in such a subclass"
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "c",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}an inflectional form {dx_def}see {dxt|inflection||2a}{/dx_def} showing membership in such a subclass"
+                      ]
+                    ]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "2 a",
+                    "dt": [
+                      ["text", "{bc}{sx|sex||1a} "],
+                      ["vis", [{ "t": "the feminine {wi}gender{/wi}" }]]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "b",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}the behavioral, cultural, or psychological traits typically associated with one sex"
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "c",
+                    "dt": [
+                      ["text", "{bc}{sx|gender identity||} "],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "Those seeking state driver's licenses in Massachusetts are closer to being able to designate their {wi}gender{/wi} as \"X\" instead of \"male\" or \"female.\" The state Senate has overwhelmingly approved a bill that would allow for the nonbinary designation on licenses.",
+                            "aq": { "auth": "Steve LeBlanc" }
+                          },
+                          {
+                            "t": "Facebook's message was clear when the social media network added new {wi}gender{/wi} options for users on Thursday: the company is sensitive to a wide spectrum of gender identity and wants users to feel accommodated no matter where they see themselves on that spectrum.",
+                            "aq": { "auth": "Katy Steinmetz" }
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "usages": [
+          {
+            "pl": "Are {parahw}gender{/parahw} and {parahw}sex{/parahw} the same? Usage Guide",
+            "pt": [
+              [
+                "text",
+                "The words {it}sex{/it} and {it}gender{/it} have a long and intertwined history. In the 15th century {it}gender{/it} expanded from its use as a term for a grammatical subclass to join {it}sex{/it} in referring to either of the two primary biological forms of a species, a meaning {it}sex{/it} has had since the 14th century; phrases like {ldquo}the male sex{rdquo} and {ldquo}the female gender{rdquo} are both grounded in uses established for more than five centuries. In the 20th century {it}sex{/it} and {it}gender{/it} each acquired new uses. {it}Sex{/it} developed its {ldquo}sexual intercourse{rdquo} meaning in the early part of the century (now its more common meaning), and a few decades later {it}gender{/it} gained a meaning referring to the behavioral, cultural, or psychological traits typically associated with one sex, as in {ldquo}gender roles.{rdquo} Later in the century, {it}gender{/it} also came to have application in two closely related compound terms: {d_link|gender identity|gender identity} refers to a person's internal sense of being male, female, some combination of male and female, or neither male nor female; {d_link|gender expression|gender expression} refers to the physical and behavioral manifestations of one's gender identity. By the end of the century {it}gender{/it} by itself was being used as a synonym of {it}gender identity{/it}.{p_br}Among those who study gender and sexuality, a clear delineation between {it}sex{/it} and {it}gender{/it} is typically prescribed, with {it}sex{/it} as the preferred term for biological forms, and {it}gender{/it} limited to its meanings involving behavioral, cultural, and psychological traits. In this dichotomy, the terms {d_link|male|male:1} and {d_link|female|female:1} relate only to biological forms ({it}sex{/it}), while the terms {d_link|masculine|masculine:1}/{d_link|masculinity|masculinity}, {d_link|feminine|feminine:1}/{d_link|femininity|femininity}, {d_link|woman|woman}/{d_link|girl|girl}, and {d_link|man|man:1}/{d_link|boy|boy} relate only to psychological and sociocultural traits ({it}gender{/it}). This delineation also tends to be observed in technical and medical contexts, with the term {it}sex{/it} referring to biological forms in such phrases as {it}sex hormones{/it}, {it}sex organs{/it}, and {it}biological sex{/it}. But in nonmedical and nontechnical contexts, there is no clear delineation, and the status of the words remains complicated. Often when comparisons explicitly between male and female people are made, we see the term {it}gender{/it} employed, with that term dominating in such collocations as {it}gender differences{/it}, {it}gender gap{/it}, {it}gender equality{/it}, {it}gender bias{/it}, and {it}gender relations{/it}. It is likely that {it}gender{/it} is applied in such contexts because of its psychological and sociocultural meanings, the word's duality making it dually useful. The fact remains that it is often applied in such cases against the prescribed use.{p_br}Usage of {it}sex{/it} and {it}gender{/it} is by no means settled. For example, while {it}discrimination{/it} was far more often paired with {it}sex{/it} from the 1960s through the 20th century and into the 21st, the phrase {it}gender discrimination{/it} has been steadily increasing in use since the 1980s and is on track to become the dominant collocation. Currently both terms are sometimes employed with their intended synonymy made explicit: {it}sex/gender discrimination{/it}, {it}gender (sex) discrimination{/it}."
+              ]
+            ]
+          }
+        ],
+        "et": [
+          [
+            "text",
+            "Middle English {it}gendre{/it}, from Anglo-French {it}genre, gendre{/it}, from Latin {it}gener-, genus{/it} birth, race, kind, gender {ma}{mat|kin|}{/ma}"
+          ]
+        ],
+        "date": "14th century{ds||1|a|}",
+        "shortdef": [
+          "a subclass within a grammatical class (such as noun, pronoun, adjective, or verb) of a language that is partly arbitrary but also partly based on distinguishable characteristics (such as shape, social rank, manner of existence, or sex) and that determines agreement with and selection of other words or grammatical forms",
+          "membership of a word or a grammatical form in such a subclass",
+          "an inflectional form showing membership in such a subclass"
+        ]
+      },
+      {
+        "meta": {
+          "id": "gender:2",
+          "uuid": "01fd1904-8d80-44bd-a338-27257b26e3b1",
+          "sort": "070681500",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["gender", "gendered", "gendering", "genders"],
+          "offensive": false
+        },
+        "hom": 2,
+        "hwi": { "hw": "gender" },
+        "fl": "verb",
+        "ins": [
+          { "if": "gen*dered" },
+          { "if": "gen*der*ing" },
+          { "if": "genders" }
+        ],
+        "def": [
+          {
+            "vd": "transitive verb",
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "1 a",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}to identify (someone) as being either male or female "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "{wi}Gendering{/wi} children prior to their arrival into the world is a relatively new phenomenon.",
+                            "aq": { "auth": "Jessie Gurunathan" }
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "b",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}to treat (someone) as either male or female "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "From the moment that we chose her name \u2026 we have been, willy-nilly, {wi}gendering{/wi} our daughter. So has everyone else. (The men in my neighborhood will shadowbox with any apparently male toddler who staggers by, whether or not he is interested; they never shadowbox with female toddlers.)",
+                            "aq": { "auth": "Sherry Gorelick" }
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "2 a",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}to design or create (something) for members of a particular sex "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "\u2026 at one stage we were going backwards in terms of {wi}gendering{/wi} toys. {ldquo}It sounds surprising, but analysis of toy catalogues shows that the {d_link|gendered|gendered:2} marketing of toys was more prevalent at the end of the 20th century than at the beginning,{rdquo} she [Dr. Rebecca Whiting] says.",
+                            "aq": { "auth": "Suzanne Harrington" }
+                          },
+                          {
+                            "t": "\u2026 Erin McNeill, founder and president of Watertown-based Media Literacy Now, advocates for integrating media literacy into the K-12 curriculum. \"Some parents won't notice or be concerned about the {wi}gendering{/wi} of products. It's important that all children have the opportunity to gain the critical thinking skills to understand how and why gendered ads target them,\" she says.",
+                            "aq": { "auth": "Rebecca Hains" }
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "b",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}to conceive of (something) as appropriate or suitable for members of a particular sex "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "\u2026 the problem with {wi}gendering{/wi} sports is that it causes a divide and serves to exclude the marginalized group.",
+                            "aq": { "source": "{it}The Manitoban{/it}" }
+                          },
+                          {
+                            "t": "Others believe that clothing manufacturers started {ldquo}{wi}gendering{/wi}{rdquo} clothing colors to sell more clothes to families by convincing them that only certain colors were appropriate for boys and others for girls.",
+                            "aq": { "auth": "Elizabeth Tiernan" }
+                          },
+                          {
+                            "t": "As the number of jobs for men dwindled, employers, reasserting man's role as bread-winner, came to define weaving, previously considered women's work, as men's work. \u2026 Geography is central to this process of the {wi}gendering{/wi} of jobs and more generally to labor market segmentation \u2026",
+                            "aq": { "auth": "Susan Hanson" }
+                          },
+                          {
+                            "t": "Davidoff and Hall's Family Fortunes, for example, has convincingly and influentially explored the ideological pressures that went into shaping the all-pervasive Victorian configuration of public roles and private spaces, and the relentless {wi}gendering{/wi} of work, religion, and family structure.",
+                            "aq": { "auth": "John Plotz" }
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "3 a",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}to associate a gender or characteristics of a gender with (something) "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "Keep in mind that fragrance nomenclature can get a bit muddled, especially since we spent so many years {wi}gendering{/wi} words like {ldquo}cologne{rdquo} for men and {ldquo}perfume{rdquo} for women.",
+                            "aq": { "source": "{it}The Robb Report{/it}" }
+                          },
+                          {
+                            "t": "For example, she notes that gender isn't just a fashionable modern preoccupation but an obsession of the eighteenth century when writers insisted on {wi}gendering{/wi} such dualisms as \"reason\" and \"feeling.\"",
+                            "aq": { "auth": "Janet Todd" }
+                          },
+                          {
+                            "t": "And finally, we may see how authors explore the {wi}gendering{/wi} of political discourse; not only voices but political attitudes are encoded as masculine and feminine, and it is not unusual to find that female figures serve to criticize established political ideology.",
+                            "aq": { "auth": "Harold MacGrath" }
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "b",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}to analyze the role and effect of gender or sex in (something, such as a field of study or interest) "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "Women's experiences of homelessness are different than men's. [Lisa] Spring says that {wi}gendering{/wi} homelessness begins with its very definition.",
+                            "aq": { "auth": "Jess Klassen" }
+                          },
+                          {
+                            "t": "Geographers have long led the research on hazards and disasters, but few have focused on {wi}gendering{/wi} hazards, vulnerabilities, and disasters. \u2026 As the study by geographers Neumayer and Plumper (2007) demonstrates in data collected from around the world, more women compared to men are killed and injured in disasters.",
+                            "aq": { "auth": "Farhana Sultana" }
+                          },
+                          {
+                            "t": "Was Shakespeare gay? Is The Merchant of Venice anti-Semitic? How does mainstream reading differ from that of subcultural groups? How does the formal study of literature handle such questions? In this lively book, Alan Sinfield engages with topics such as the {wi}gendering{/wi} of literary culture, the sexual politics of psychoanalysis during the Cold War, and the history of cultural materialism \u2026",
+                            "aq": {
+                              "source": "{it}(catalog) University of Pennsylvania Press{/it}"
+                            }
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "et": [["text", "derivative of {et_link|gender:1|gender:1}"]],
+        "date": "1825{ds||1|a|}",
+        "shortdef": [
+          "to identify (someone) as being either male or female",
+          "to treat (someone) as either male or female",
+          "to design or create (something) for members of a particular sex"
+        ]
+      },
+      {
+        "meta": {
+          "id": "gender:3",
+          "uuid": "5c190829-0d71-4fe9-ac22-1ef4a337c553",
+          "sort": "070682000",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["gender", "gendered", "gendering", "genders"],
+          "offensive": false
+        },
+        "hom": 3,
+        "hwi": { "hw": "gender" },
+        "fl": "verb",
+        "ins": [
+          { "if": "gen*dered" },
+          {
+            "if": "gen*der*ing",
+            "prs": [
+              {
+                "mw": "\u02c8jen-d(\u0259-)ri\u014b",
+                "sound": { "audio": "gender02", "ref": "c", "stat": "1" }
+              }
+            ]
+          },
+          { "if": "gen*ders" }
+        ],
+        "def": [
+          { "sseq": [[["sense", { "dt": [["text", "{bc}{sx|engender||}"]] }]]] }
+        ],
+        "et": [
+          [
+            "text",
+            "Middle English {it}gendren{/it}, from Anglo-French {it}gendrer{/it}, from Latin {it}generare{/it} {ma}{mat|generate|}{/ma}"
+          ]
+        ],
+        "date": "14th century",
+        "shortdef": ["engender"]
+      },
+      {
+        "meta": {
+          "id": "gender-affirming surgery",
+          "uuid": "61d944ff-e346-4043-a8b7-c3ab57ce706a",
+          "sort": "070682500",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": [
+            "gender affirmation surgeries",
+            "gender affirmation surgery",
+            "gender-affirming surgeries",
+            "gender-affirming surgery"
+          ],
+          "offensive": false
+        },
+        "hwi": {
+          "hw": "gen*der-af*firm*ing surgery",
+          "prs": [
+            {
+              "mw": "\u02c8jen-d\u0259r-\u0259-\u02c8f\u0259r-mi\u014b-",
+              "sound": { "audio": "gender-affirmin", "ref": "owl", "stat": "1" }
+            }
+          ]
+        },
+        "vrs": [{ "vl": "or", "va": "gender affirmation surgery" }],
+        "fl": "noun",
+        "ins": [
+          { "il": "plural", "if": "gender-affirming surgeries" },
+          { "il": "or", "if": "gender affirmation surgeries" }
+        ],
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}any of several surgical procedures that a transgender or nonbinary {dx_def}see {dxt|nonbinary|nonbinary|c}{/dx_def} person may choose to undergo in order to obtain physical characteristics that align with their {d_link|gender identity|gender identity} {bc}{sx|gender confirmation surgery||} "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "Hormone therapy and {wi}gender-affirming surgery{/wi} are crucial parts of transition for many trans adults. Alleviating {d_link|gender dysphoria|gender dysphoria} and aligning gender expression with identity through these treatments can lower stress, reduce symptoms of depression and anxiety, and significantly lessen suicidal ideation.",
+                            "aq": { "auth": "Orion Rummler" }
+                          },
+                          {
+                            "t": "Some people also identify as both nonbinary and trans. They may take hormones or undergo {wi}gender-affirming surgery{/wi}, but this doesn't take away from their nonbinary identity.",
+                            "aq": { "auth": "Suzannah Weiss" }
+                          },
+                          {
+                            "t": "Many transgender individuals choose to undergo fertility preservation before their {wi}gender affirmation surgery{/wi} if having biological children is part of their long-term goals.",
+                            "aq": { "auth": "Romy Smith and Ro Bowman" }
+                          }
+                        ]
+                      ],
+                      ["uns", [[["text", "abbreviation {it}GAS{/it}"]]]]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "2011",
+        "shortdef": [
+          "any of several surgical procedures that a transgender or nonbinary person may choose to undergo in order to obtain physical characteristics that align with their gender identity : gender confirmation surgery \u2014abbreviation GAS"
+        ]
+      },
+      {
+        "meta": {
+          "id": "gender bender",
+          "uuid": "9951d3d2-b7f2-4fe2-aaa3-bff5b2e7cd83",
+          "sort": "070683000",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": [
+            "gender bender",
+            "gender benders",
+            "gender-bending",
+            "gender-bendings"
+          ],
+          "offensive": false
+        },
+        "hwi": { "hw": "gender bender" },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a person who dresses and behaves like a member of the opposite sex"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "uros": [
+          {
+            "ure": "gen*der-bend*ing",
+            "prs": [
+              {
+                "mw": "\u02c8jen-d\u0259r-\u02c8ben-di\u014b",
+                "sound": {
+                  "audio": "gender-bending_1",
+                  "ref": "owl",
+                  "stat": "1"
+                }
+              }
+            ],
+            "fl": "adjective or noun"
+          }
+        ],
+        "date": "1975",
+        "shortdef": [
+          "a person who dresses and behaves like a member of the opposite sex"
+        ]
+      },
+      {
+        "meta": {
+          "id": "gender confirmation surgery",
+          "uuid": "d7c1643b-50d0-4a1d-aaac-c5fb09fa9626",
+          "sort": "070683250",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": [
+            "gender confirmation surgeries",
+            "gender confirmation surgery",
+            "gender-confirming surgeries",
+            "gender-confirming surgery"
+          ],
+          "offensive": false
+        },
+        "hwi": { "hw": "gender confirmation surgery" },
+        "vrs": [
+          {
+            "vl": "or less commonly",
+            "va": "gen*der-con*firm*ing surgery",
+            "prs": [
+              {
+                "mw": "\u02c8jen-d\u0259r-k\u0259n-\u02c8f\u0259r-mi\u014b-",
+                "sound": {
+                  "audio": "gender-confirmi",
+                  "ref": "owl",
+                  "stat": "1"
+                }
+              }
+            ]
+          }
+        ],
+        "fl": "noun",
+        "ins": [
+          { "il": "plural", "if": "gender confirmation surgeries" },
+          { "il": "also", "if": "gender-confirming surgeries" }
+        ],
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}any of several surgical procedures that a transgender or nonbinary {dx_def}see {dxt|nonbinary|nonbinary|c}{/dx_def} person may choose to undergo in order to obtain physical characteristics that align with their {d_link|gender identity|gender identity} {bc}{sx|gender-affirming surgery||} "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "A new study has confirmed what others before it have found: {wi}Gender confirmation surgery{/wi} improves the quality of life of most who choose to undergo it.",
+                            "aq": { "auth": "Jeff Taylor" }
+                          },
+                          {
+                            "t": "{wi}Gender confirmation surgeries{/wi} for trans men and trans women, respectively, differ in scope and kind, giving patients a range of medical options to define transitioning on their own terms.",
+                            "aq": { "auth": "Lydia Dishman" }
+                          },
+                          {
+                            "t": "The National Collegiate Athletic Association (NCAA) does not require {wi}gender-confirming surgery{/wi} or legal recognition of a player's transitioned sex in order for transgender athletes to participate on a team that matches their identity \u2026",
+                            "aq": { "auth": "Lauren Giaella" }
+                          }
+                        ]
+                      ],
+                      ["uns", [[["text", "abbreviation {it}GCS{/it}"]]]]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1993",
+        "shortdef": [
+          "any of several surgical procedures that a transgender or nonbinary person may choose to undergo in order to obtain physical characteristics that align with their gender identity : gender-affirming surgery \u2014abbreviation GCS"
+        ]
+      },
+      {
+        "meta": {
+          "id": "gender dysphoria",
+          "uuid": "28b60bca-cd62-4107-beb7-0de106422122",
+          "sort": "070683500",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["gender dysphoria", "gender dysphorias"],
+          "offensive": false
+        },
+        "hwi": { "hw": "gender dysphoria" },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a distressed state arising from conflict between a person's {d_link|gender identity|gender identity} and the sex the person was identified as having at birth "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "I am a 24-year-old transgender woman, and I know {wi}gender dysphoria{/wi} very well. My distress over my physical body, my feeling that it doesn't always match up with my gender identity, often lurks in some far corner of my mind. It doesn't matter how well I'm dressed, how much I brush my hair, how many compliments I receive, or how well my hormone therapy treatment is working. When {wi}gender dysphoria{/wi} hits, it packs a punch.",
+                            "aq": { "auth": "Serena Sonoma" }
+                          }
+                        ]
+                      ]
+                    ],
+                    "sdsense": {
+                      "sd": "also",
+                      "dt": [
+                        ["text", "{bc}a condition marked by such distress "],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "The treatment for {wi}gender dysphoria{/wi} is often multi-disciplinary, combining the efforts of several behavioral health and medical professionals. \u2026 Non-operative treatment focuses on implementing psychosocial therapy and/or medical management with hormone replacement therapy. Operative treatments range from small cosmetic procedures to much larger genital transformation surgeries.",
+                              "aq": { "auth": "Danyon Anderson et al." }
+                            }
+                          ]
+                        ],
+                        [
+                          "text",
+                          "{dx}compare {dxt|gender euphoria|gender euphoria|}{/dx}"
+                        ]
+                      ]
+                    }
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1973",
+        "shortdef": [
+          "a distressed state arising from conflict between a person's gender identity and the sex the person was identified as having at birth; also : a condition marked by such distress"
+        ]
+      },
+      {
+        "meta": {
+          "id": "gender euphoria",
+          "uuid": "e7a94065-f63b-4bce-8ac4-8b657c52327b",
+          "sort": "070684125",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["gender euphoria"],
+          "offensive": false
+        },
+        "hwi": { "hw": "gender euphoria" },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a state marked by positive emotions (such as happiness or excitement) arising from a sense of alignment between a person's {d_link|gender identity|gender identity} and {d_link|gender expression|gender expression} "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "I would go on to experience this high, this {wi}gender euphoria{/wi}, countless more times over the next ten years. When I bought my first cologne. \u2026 When someone called me {ldquo}sir{rdquo} for the first time. Or the first time a barista wrote my chosen name on my iced coffee. I could go on. I was experiencing {wi}gender euphoria{/wi} long before I knew that I was trans\u2014and long before I had language for my experience.",
+                            "aq": { "auth": "Adrian Silbernagel" }
+                          },
+                          {
+                            "t": "When asked to share an example of {wi}gender euphoria{/wi}, Cazares recalled the first time that he went shirtless on a beach. And when he finally felt comfortable entering a men's gym locker room. Those were defining moments, because they happened in spaces that had previously led him to feel frustrated and insecure about his body.",
+                            "aq": { "auth": "Eleanor Goldberg et al." }
+                          }
+                        ]
+                      ],
+                      [
+                        "text",
+                        " {dx}compare {dxt|gender dysphoria|gender dysphoria|}{/dx}"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1976",
+        "shortdef": [
+          "a state marked by positive emotions (such as happiness or excitement) arising from a sense of alignment between a person's gender identity and gender expression"
+        ]
+      },
+      {
+        "meta": {
+          "id": "gender expression",
+          "uuid": "559489f4-11c8-4545-b44e-8f0b05a1e36d",
+          "sort": "070684250",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["gender expression", "gender expressions"],
+          "offensive": false
+        },
+        "hwi": { "hw": "gender expression" },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}the physical and behavioral manifestations of one's {d_link|gender identity|gender identity} "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "People vary greatly in the extent to which they hold and convey gendered thoughts, feelings, and behaviors. {wi}Gender expression{/wi} refers to the way people convey their gender through mannerisms, behaviors, or expressions.",
+                            "aq": {
+                              "source": "{it}Encyclopedia of Sport and Exercise Psychology{/it}"
+                            }
+                          },
+                          {
+                            "t": "For most people, \u2026 {wi}gender expression{/wi} occurs so naturally it's unnoticeable. Except when {wi}gender expression{/wi} doesn't match traditional notions of the gender assigned at birth.",
+                            "aq": { "auth": "Will Dean" }
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1973",
+        "shortdef": [
+          "the physical and behavioral manifestations of one's gender identity"
+        ]
+      },
+      {
+        "meta": {
+          "id": "gender-fluid",
+          "uuid": "fde677fd-20e8-4045-b529-5c561c103740",
+          "sort": "070684280",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": [
+            "gender fluid",
+            "gender fluidities",
+            "gender fluidity",
+            "gender-fluid",
+            "genderfluid"
+          ],
+          "offensive": false
+        },
+        "hwi": {
+          "hw": "gen*der-flu*id",
+          "prs": [
+            {
+              "mw": "\u02c8jen-d\u0259r-\u02c8fl\u00fc-\u0259d",
+              "sound": { "audio": "gender-fluid", "ref": "owl", "stat": "1" }
+            }
+          ]
+        },
+        "vrs": [
+          { "vl": "or", "va": "gender fluid" },
+          { "vl": "or less commonly", "va": "gen*der*flu*id" }
+        ],
+        "fl": "adjective",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}of, relating to, or being a person whose {d_link|gender identity|gender identity} is not fixed "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "{wi}Gender-fluid{/wi} individuals prefer to remain flexible about their gender(s). Some dress in ways that reflect both genders at the same time, while others may express one gender one day and another gender another day.",
+                            "aq": { "auth": "Kristin Cronn-Mills" }
+                          },
+                          {
+                            "t": "The scene also reveals Stella as {wi}gender fluid{/wi}\u2014someone who identifies as both boy and girl, sometimes skewing more heavily toward one gender than the other.",
+                            "aq": { "auth": "Mackenzie Dawson" }
+                          },
+                          {
+                            "t": "Some {wi}genderfluid{/wi} folks and drag artists use \u2026 \"he,\" \"she,\" or \"they\" based on how they're presenting.",
+                            "aq": { "auth": "Delilah Friedler" }
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "uros": [
+          {
+            "ure": "gender fluidity",
+            "fl": "noun",
+            "utxt": [
+              [
+                "vis",
+                [
+                  {
+                    "t": "{wi}Gender fluidity{/wi} is the ability to freely and knowingly become one or many of a limitless number of genders, for any length of time, at any rate of change. {wi}Gender fluidity{/wi} recognizes no borders or rules of gender.",
+                    "aq": { "auth": "Kate Bornstein" }
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1993",
+        "shortdef": [
+          "of, relating to, or being a person whose gender identity is not fixed"
+        ]
+      }
+    ]
+  },
+  {
+    "word_name": "fluoride",
+    "word_def": [
+      {
+        "meta": {
+          "id": "fluoride",
+          "uuid": "747fb546-d2e7-41b6-b4c6-12400fc9a20f",
+          "sort": "062135000",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["fluoride", "fluorides"],
+          "offensive": false
+        },
+        "hwi": {
+          "hw": "fluo*ride",
+          "prs": [
+            {
+              "mw": "\u02c8fl\u022fr-\u02cc\u012bd",
+              "sound": { "audio": "fluori05", "ref": "c", "stat": "1" }
+            },
+            {
+              "mw": "\u02c8flu\u0307r-",
+              "sound": { "audio": "fluori04", "ref": "c", "stat": "1" }
+            }
+          ]
+        },
+        "fl": "noun",
+        "lbs": ["often attributive"],
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "1",
+                    "dt": [["text", "{bc}a compound of {a_link|fluorine}"]]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "2",
+                    "dt": [["text", "{bc}the monovalent anion of fluorine"]]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1826{ds||1||}",
+        "shortdef": [
+          "a compound of fluorine",
+          "the monovalent anion of fluorine"
+        ]
+      },
+      {
+        "meta": {
+          "id": "hydrogen fluoride",
+          "uuid": "1c9fda53-f6fc-44b6-a50c-5532649ecbe9",
+          "sort": "080324300",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["hydrogen fluoride", "hydrogen fluorides"],
+          "offensive": false
+        },
+        "hwi": { "hw": "hydrogen fluoride" },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a colorless corrosive fuming usually gaseous compound HF that yields hydrofluoric acid when dissolved in water"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1869",
+        "shortdef": [
+          "a colorless corrosive fuming usually gaseous compound HF that yields hydrofluoric acid when dissolved in water"
+        ]
+      },
+      {
+        "meta": {
+          "id": "lithium fluoride",
+          "uuid": "2ea5b5fd-93bc-41fe-9dad-ba7a4c718fc8",
+          "sort": "120199700",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["lithium fluoride"],
+          "offensive": false
+        },
+        "hwi": { "hw": "lithium fluoride" },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a crystalline salt LiF used especially in making prisms and ceramics and as a flux"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1944",
+        "shortdef": [
+          "a crystalline salt LiF used especially in making prisms and ceramics and as a flux"
+        ]
+      },
+      {
+        "meta": {
+          "id": "sodium fluoride",
+          "uuid": "86a05c4d-9c0e-4bb6-85dc-f0c8072736f5",
+          "sort": "194558800",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["sodium fluoride", "sodium fluorides"],
+          "offensive": false
+        },
+        "hwi": { "hw": "sodium fluoride" },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a poisonous crystalline salt NaF that is used in trace amounts in the fluoridation of drinking water and toothpastes, in metallurgy, as a flux, and as a pesticide"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1869",
+        "shortdef": [
+          "a poisonous crystalline salt NaF that is used in trace amounts in the fluoridation of drinking water and toothpastes, in metallurgy, as a flux, and as a pesticide"
+        ]
+      }
+    ]
+  },
+  {
+    "word_name": "multicultural",
+    "word_def": [
+      {
+        "meta": {
+          "id": "multicultural",
+          "uuid": "fc03ba04-ea6a-4e66-b534-ebf5e3683541",
+          "sort": "134578000",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": [
+            "multicultural",
+            "multiculturalism",
+            "multiculturalisms",
+            "multiculturalist",
+            "multiculturalists",
+            "multiculturally"
+          ],
+          "offensive": false
+        },
+        "hwi": {
+          "hw": "mul*ti*cul*tur*al",
+          "prs": [
+            {
+              "mw": "\u02ccm\u0259l-t\u0113-\u02c8k\u0259lch-r\u0259l",
+              "sound": { "audio": "multic01", "ref": "c", "stat": "1" }
+            },
+            { "mw": "-\u02cct\u012b-" },
+            {
+              "mw": "-\u02c8k\u0259l-ch\u0259-",
+              "sound": { "audio": "multic02", "ref": "c", "stat": "1" }
+            }
+          ]
+        },
+        "fl": "adjective",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}of, relating to, reflecting, or adapted to {d_link|diverse|diverse} cultures "
+                      ],
+                      [
+                        "vis",
+                        [
+                          { "t": "a {wi}multicultural{/wi} society" },
+                          { "t": "{wi}multicultural{/wi} education" },
+                          { "t": "a {wi}multicultural{/wi} menu" }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "uros": [
+          {
+            "ure": "mul*ti*cul*tur*al*ly",
+            "prs": [
+              {
+                "mw": "\u02ccm\u0259l-t\u0113-\u02c8k\u0259lch-r\u0259-l\u0113"
+              },
+              { "mw": "-\u02cct\u012b-" },
+              { "mw": "-\u02c8k\u0259l-ch\u0259-" }
+            ],
+            "fl": "adverb"
+          }
+        ],
+        "date": "1935",
+        "shortdef": [
+          "of, relating to, reflecting, or adapted to diverse cultures"
+        ]
+      }
+    ]
+  },
+  {
+    "word_name": "belong",
+    "word_def": [
+      {
+        "meta": {
+          "id": "belong",
+          "uuid": "83584ff1-5001-459a-9006-72e197f46029",
+          "sort": "020153200",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["belong", "belonged", "belonging", "belongs"],
+          "offensive": false
+        },
+        "hwi": {
+          "hw": "be*long",
+          "prs": [
+            {
+              "mw": "bi-\u02c8l\u022f\u014b",
+              "sound": { "audio": "belong01", "ref": "c", "stat": "1" }
+            },
+            { "mw": "b\u0113-" }
+          ]
+        },
+        "fl": "verb",
+        "ins": [
+          { "if": "be*longed" },
+          { "if": "be*long*ing" },
+          { "if": "be*longs" }
+        ],
+        "def": [
+          {
+            "vd": "intransitive verb",
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "1 a",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}to be suitable, appropriate, or advantageous "
+                      ],
+                      [
+                        "vis",
+                        [{ "t": "a dictionary {wi}belongs{/wi} in every home" }]
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "b",
+                    "dt": [
+                      ["text", "{bc}to be in a proper situation "],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "a man of his ability {wi}belongs{/wi} in teaching"
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "2 a",
+                    "dt": [
+                      ["text", "{bc}to be the property of a person or thing "],
+                      [
+                        "uns",
+                        [
+                          [
+                            ["text", "used with {it}to{/it} "],
+                            [
+                              "vis",
+                              [{ "t": "the book {wi}belongs{/wi} to me" }]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "b",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}to be attached or bound by birth, allegiance, or dependency "
+                      ],
+                      [
+                        "uns",
+                        [
+                          [
+                            ["text", "usually used with {it}to{/it} "],
+                            [
+                              "vis",
+                              [
+                                {
+                                  "t": "they {wi}belong{/wi} to their homeland"
+                                }
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "c",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}to be a member of a club, organization, or set "
+                      ],
+                      [
+                        "uns",
+                        [
+                          [
+                            ["text", "usually used with {it}to{/it} "],
+                            [
+                              "vis",
+                              [
+                                {
+                                  "t": "she {wi}belongs{/wi} to a country club"
+                                }
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "3",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}to be an attribute, part, adjunct, or function of a person or thing "
+                      ],
+                      [
+                        "vis",
+                        [{ "t": "nuts and bolts {wi}belong{/wi} to a car" }]
+                      ]
+                    ]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "4",
+                    "dt": [["text", "{bc}to be properly classified"]]
+                  }
+                ]
+              ]
+            ]
+          },
+          {
+            "vd": "auxiliary verb",
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "sls": ["chiefly Southern US and south Midland US"],
+                    "dt": [["text", "{bc}{sx|ought||}, {sx|must||}"]]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "et": [
+          [
+            "text",
+            "Middle English {it}belongen{/it}, from {it}be-{/it} {et_link|be-|be-} + {it}longen{/it} \"to be suitable\" {ma}{mat|long:5|}{/ma}"
+          ]
+        ],
+        "date": "14th century{ds|i|1|a|}",
+        "shortdef": [
+          "to be suitable, appropriate, or advantageous",
+          "to be in a proper situation",
+          "to be the property of a person or thing \u2014used with to"
+        ]
+      },
+      {
+        "meta": {
+          "id": "belong to",
+          "uuid": "6439f1bf-a275-4e01-9f35-d9eaa78c07d1",
+          "sort": "3001700000",
+          "src": "ld",
+          "section": "idioms",
+          "stems": ["belong to", "belonged to", "belonging to", "belongs to"],
+          "offensive": false
+        },
+        "hwi": { "hw": "belong to" },
+        "fl": "phrasal verb",
+        "ins": [
+          { "if": "be*longed to" },
+          { "if": "be*long*ing to" },
+          { "if": "be*longs to" }
+        ],
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "1",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}to be the property of (someone) {bc}to be owned by "
+                      ],
+                      [
+                        "vis",
+                        [
+                          { "t": "The money {it}belongs to{/it} him." },
+                          {
+                            "t": "The house {it}belongs{/it} not just {it}to{/it} her, but {it}to{/it} her husband as well."
+                          },
+                          {
+                            "t": "His style {it}belongs{/it} only {it}to{/it} himself."
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "2",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}to be a member of (a club, organization, etc.) "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "The family {it}belongs to{/it} a country club."
+                          },
+                          {
+                            "t": "Most of the company's employees {it}belong to{/it} an HMO."
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "3",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}to be included in (a category, group, etc.) "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "What family does that bird {it}belong to{/it}?"
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "4",
+                    "dt": [
+                      ["text", "{bc}to be a part of (something) "],
+                      [
+                        "vis",
+                        [{ "t": "the parts {it}belonging to{/it} the clock" }]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "shortdef": [
+          "to be the property of (someone) : to be owned by",
+          "to be a member of (a club, organization, etc.)",
+          "to be included in (a category, group, etc.)"
+        ]
+      }
+    ]
+  },
+  {
+    "word_name": "community",
+    "word_def": [
+      {
+        "meta": {
+          "id": "community",
+          "uuid": "db177934-bef4-488f-a787-0fce6756d1af",
+          "sort": "035478500",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["communities", "community"],
+          "offensive": false
+        },
+        "hwi": {
+          "hw": "com*mu*ni*ty",
+          "prs": [
+            {
+              "mw": "k\u0259-\u02c8my\u00fc-n\u0259-t\u0113",
+              "sound": { "audio": "commun30", "ref": "c", "stat": "1" }
+            }
+          ]
+        },
+        "fl": "noun",
+        "ins": [{ "il": "plural", "ifc": "-ties", "if": "com*mu*ni*ties" }],
+        "lbs": ["often attributive"],
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "bs",
+                  {
+                    "sense": {
+                      "sn": "1",
+                      "dt": [
+                        ["text", "{bc}a unified body of individuals: such as"]
+                      ]
+                    }
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "a",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}the people with {a_link|common} interests living in a particular area"
+                      ]
+                    ],
+                    "sdsense": {
+                      "sd": "broadly",
+                      "dt": [
+                        ["text", "{bc}the area itself "],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "the problems of a large {wi}community{/wi}"
+                            }
+                          ]
+                        ]
+                      ]
+                    }
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "b",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a group of people with a common characteristic or interest living together within a larger society "
+                      ],
+                      [
+                        "vis",
+                        [
+                          { "t": "a {wi}community{/wi} of retired persons" },
+                          { "t": "a monastic {wi}community{/wi}" }
+                        ]
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "c",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a body of persons of common and especially professional interests scattered through a larger society "
+                      ],
+                      [
+                        "vis",
+                        [
+                          { "t": "the academic {wi}community{/wi}" },
+                          { "t": "the scientific {wi}community{/wi}" }
+                        ]
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "d",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a body of persons or nations having a common history or common social, economic, and political interests "
+                      ],
+                      ["vis", [{ "t": "the international {wi}community{/wi}" }]]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "e",
+                    "dt": [["text", "{bc}a group linked by a common policy"]]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "f",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}an interacting population of various kinds of individuals (such as species) in a common location"
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "g",
+                    "dt": [["text", "{bc}{sx|state||}, {sx|commonwealth||}"]]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "2 a",
+                    "dt": [
+                      ["text", "{bc}a social state or condition "],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "The school encourages a sense of {wi}community{/wi} in its students."
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "b",
+                    "dt": [
+                      ["text", "{bc}joint ownership or participation "],
+                      ["vis", [{ "t": "{wi}community{/wi} of goods" }]]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "c",
+                    "dt": [
+                      ["text", "{bc}common character {bc}{sx|likeness||} "],
+                      ["vis", [{ "t": "{wi}community{/wi} of interests" }]]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "d",
+                    "dt": [
+                      ["text", "{bc}social activity {bc}{sx|fellowship||}"]
+                    ]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "3",
+                    "dt": [
+                      ["text", "{bc}society at large "],
+                      [
+                        "vis",
+                        [{ "t": "the interests of the {wi}community{/wi}" }]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "et": [
+          [
+            "text",
+            "Middle English {it}comunete{/it}, from Anglo-French {it}communit\u00e9{/it}, from Latin {it}communitat-, communitas{/it}, from {it}communis{/it} {dx_ety}see {dxt|common:1||}{/dx_ety}"
+          ]
+        ],
+        "date": "14th century{ds||1||}",
+        "shortdef": [
+          "a unified body of individuals: such as",
+          "the people with common interests living in a particular area; broadly : the area itself",
+          "a group of people with a common characteristic or interest living together within a larger society"
+        ]
+      },
+      {
+        "meta": {
+          "id": "community-acquired",
+          "uuid": "55a1aa0d-5873-4a1d-bc7e-bac0b9ce2105",
+          "sort": "035478600",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["community-acquired", "community-associated"],
+          "offensive": false
+        },
+        "hwi": { "hw": "community-acquired" },
+        "vrs": [{ "vl": "or less commonly", "va": "community-associated" }],
+        "fl": "adjective",
+        "def": [
+          {
+            "sls": ["of an infection"],
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}acquired or arising in the general population {bc}not acquired or arising in a hospital "
+                      ],
+                      [
+                        "vis",
+                        [{ "t": "{wi}community-acquired{/wi} pneumonia" }]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1969",
+        "shortdef": [
+          "acquired or arising in the general population : not acquired or arising in a hospital"
+        ]
+      },
+      {
+        "meta": {
+          "id": "community antenna television",
+          "uuid": "8b42b621-cc32-4dc2-af05-f054edabfde4",
+          "sort": "035478650",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": [
+            "community antenna television",
+            "community antenna televisions"
+          ],
+          "offensive": false
+        },
+        "hwi": { "hw": "community antenna television" },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [["sense", { "dt": [["text", "{bc}{sx|cable television||}"]] }]]
+            ]
+          }
+        ],
+        "date": "1953",
+        "shortdef": ["cable television"]
+      },
+      {
+        "meta": {
+          "id": "community center",
+          "uuid": "2074f79d-5507-470f-ad47-4edb6127bbf7",
+          "sort": "035478700",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["community center", "community centers"],
+          "offensive": false
+        },
+        "hwi": { "hw": "community center" },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a building or group of buildings for a community's educational and recreational activities"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1899",
+        "shortdef": [
+          "a building or group of buildings for a community's educational and recreational activities"
+        ]
+      },
+      {
+        "meta": {
+          "id": "community chest",
+          "uuid": "39716ada-b127-4165-ba0f-e8692b679ed9",
+          "sort": "035478800",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["community chest", "community chests"],
+          "offensive": false
+        },
+        "hwi": { "hw": "community chest" },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a general fund accumulated from individual subscriptions to defray demands on a community for charity and social welfare"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1918",
+        "shortdef": [
+          "a general fund accumulated from individual subscriptions to defray demands on a community for charity and social welfare"
+        ]
+      },
+      {
+        "meta": {
+          "id": "community college",
+          "uuid": "f6894690-d4c1-45af-b764-f63d32bf9bd0",
+          "sort": "035478900",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["community college", "community colleges"],
+          "offensive": false
+        },
+        "hwi": { "hw": "community college" },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a 2-year government-supported college that offers an associate degree"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1922",
+        "shortdef": [
+          "a 2-year government-supported college that offers an associate degree"
+        ]
+      },
+      {
+        "meta": {
+          "id": "community immunity",
+          "uuid": "87a9c0b2-b0ae-481c-b1c3-9fa3463f16dd",
+          "sort": "035478950",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["community immunities", "community immunity"],
+          "offensive": false
+        },
+        "hwi": { "hw": "community immunity" },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      ["text", "{bc}{sx|herd immunity||} "],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "Encouraging our families, friends and neighbors to get vaccinated adds layers of protection and helps us create {wi}community immunity{/wi}.",
+                            "aq": { "auth": "Larry Antonucci" }
+                          },
+                          {
+                            "t": "There is a level of vaccination that is needed to protect a community from an outbreak of disease. This is called \"herd immunity\" and sometimes, \"{wi}community immunity{/wi}.\"",
+                            "aq": { "auth": "Erica Parker" }
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1915",
+        "shortdef": ["herd immunity"]
+      },
+      {
+        "meta": {
+          "id": "community property",
+          "uuid": "9b54721c-1814-4ba8-ba7f-fd2e85a33c87",
+          "sort": "035479000",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["community properties", "community property"],
+          "offensive": false
+        },
+        "hwi": { "hw": "community property" },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      ["text", "{bc}property held jointly by a married couple"]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1848",
+        "shortdef": ["property held jointly by a married couple"]
+      },
+      {
+        "meta": {
+          "id": "community spread",
+          "uuid": "f497fa8c-38ae-4407-bb6d-ddd32026a654",
+          "sort": "035479025",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["community spread", "community transmission"],
+          "offensive": false
+        },
+        "hwi": { "hw": "community spread" },
+        "vrs": [{ "vl": "or", "va": "community transmission" }],
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}the spread of a contagious disease within a community"
+                      ]
+                    ],
+                    "sdsense": {
+                      "sd": "specifically",
+                      "dt": [
+                        [
+                          "text",
+                          "{bc}the spread of a contagious disease to individuals in a particular geographic location who have no known contact with other infected individuals or who have not recently traveled to an area where the disease has any documented cases "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "Dr. [Anthony] Fauci, who is the top coronavirus expert in the country, said {wi}community spread{/wi} made it almost impossible to predict how many cases there will be.",
+                              "aq": { "auth": "Megan Sheets and Emily Crane" }
+                            },
+                            {
+                              "t": "\u2026 a 50-year-old New Rochelle man became the first known person in New York to contract the virus through {wi}community spread{/wi}.",
+                              "aq": { "auth": "Jon Campbell" }
+                            },
+                            {
+                              "t": "In areas where {wi}community transmission{/wi} is high, schools may be closed and businesses may ask employees to work from home.",
+                              "aq": { "auth": "Melissa Healy" }
+                            }
+                          ]
+                        ]
+                      ]
+                    }
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1903",
+        "shortdef": [
+          "the spread of a contagious disease within a community; specifically : the spread of a contagious disease to individuals in a particular geographic location who have no known contact with other infected individuals or who have not recently traveled to an area where the disease has any documented cases"
+        ]
+      },
+      {
+        "meta": {
+          "id": "community-supported agriculture",
+          "uuid": "b575b19a-09d7-4183-95c2-6359a2499e0e",
+          "sort": "035479050",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["community-supported agriculture"],
+          "offensive": false
+        },
+        "hwi": { "hw": "com*mu*ni*ty-sup*port*ed agriculture" },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a system in which a farm is supported by local consumers who purchase prepaid {d_link|shares|share:2} in the farm's output which they receive periodically throughout the growing season "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "And they run a {wi}community-supported agriculture{/wi} (CSA) program that this year will supply 400 local families with boxes of fresh produce \u2026 every week.",
+                            "aq": { "auth": "Casey Miner" }
+                          }
+                        ]
+                      ],
+                      ["uns", [[["text", "abbreviation {it}CSA{/it}"]]]]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1987",
+        "shortdef": [
+          "a system in which a farm is supported by local consumers who purchase prepaid shares in the farm's output which they receive periodically throughout the growing season \u2014abbreviation CSA"
+        ]
+      }
+    ]
+  },
+  {
+    "word_name": "pollution",
+    "word_def": [
+      {
+        "meta": {
+          "id": "pollution",
+          "uuid": "5dc546a9-893e-443b-b69f-b7073de1cf53",
+          "sort": "165592000",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["pollution", "pollutions"],
+          "offensive": false
+        },
+        "hwi": {
+          "hw": "pol*lu*tion",
+          "prs": [
+            {
+              "mw": "p\u0259-\u02c8l\u00fc-sh\u0259n",
+              "sound": { "audio": "pollut04", "ref": "c", "stat": "1" }
+            }
+          ]
+        },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "1 a",
+                    "dt": [
+                      ["text", "{bc}the action of {d_link|polluting|pollute}"]
+                    ],
+                    "sdsense": {
+                      "sd": "especially",
+                      "dt": [
+                        [
+                          "text",
+                          "{bc}the action of making an environment unsuitable or unsafe for use by introducing man-made waste "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "Abandoned mining and milling operations are already implicated in {wi}pollution{/wi} of the river with toxic and radioactive waste products \u2026",
+                              "aq": { "auth": "Larry Brown" }
+                            }
+                          ]
+                        ]
+                      ]
+                    }
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "b",
+                    "dt": [
+                      ["text", "{bc}the condition of being polluted "],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "A three-year study \u2026 has indicated that the lake already is suffering from severe {wi}pollution{/wi} and that any additional development will exacerbate it.",
+                            "aq": { "auth": "Anthony DePalma" }
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "2",
+                    "dt": [["text", "{bc}something that pollutes"]],
+                    "sdsense": {
+                      "sd": "especially",
+                      "dt": [
+                        [
+                          "text",
+                          "{bc}something (such as man-made waste) that makes an environment unsuitable or unsafe for use "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "tested the levels of {wi}pollution{/wi} {gloss}=pollutants{/gloss} in the water"
+                            }
+                          ]
+                        ]
+                      ]
+                    }
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "14th century{ds||1|a|}",
+        "shortdef": [
+          "the action of polluting; especially : the action of making an environment unsuitable or unsafe for use by introducing man-made waste",
+          "the condition of being polluted",
+          "something that pollutes; especially : something (such as man-made waste) that makes an environment unsuitable or unsafe for use"
+        ]
+      },
+      {
+        "meta": {
+          "id": "light pollution",
+          "uuid": "8f5170f1-9aab-434a-8347-77cc08aef6cf",
+          "sort": "120158100",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["light pollution", "light pollutions"],
+          "offensive": false
+        },
+        "hwi": { "hw": "light pollution" },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}artificial skylight (as from city lights) that interferes especially with astronomical observations"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1969",
+        "shortdef": [
+          "artificial skylight (as from city lights) that interferes especially with astronomical observations"
+        ]
+      },
+      {
+        "meta": {
+          "id": "noise pollution",
+          "uuid": "43bb12d1-dce7-4da5-a951-94996961d212",
+          "sort": "141189000",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["noise pollution", "noise pollutions"],
+          "offensive": false
+        },
+        "hwi": { "hw": "noise pollution" },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}annoying or harmful noise (as of automobiles or jet airplanes) in an environment"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1966",
+        "shortdef": [
+          "annoying or harmful noise (as of automobiles or jet airplanes) in an environment"
+        ]
+      },
+      {
+        "meta": {
+          "id": "thermal pollution",
+          "uuid": "63caecc0-f865-463c-963e-fda2414161a2",
+          "sort": "200155600",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["thermal pollution", "thermal pollutions"],
+          "offensive": false
+        },
+        "hwi": { "hw": "thermal pollution" },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}the discharge of heated liquid (such as wastewater from a factory) into natural waters at a temperature harmful to the environment"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "date": "1966",
+        "shortdef": [
+          "the discharge of heated liquid (such as wastewater from a factory) into natural waters at a temperature harmful to the environment"
+        ]
+      }
+    ]
+  },
+  {
+    "word_name": "immigrants",
+    "word_def": [
+      {
+        "meta": {
+          "id": "immigrant",
+          "uuid": "5f7285a5-9aac-41a0-bf70-eab7ef637ac2",
+          "sort": "090484000",
+          "src": "collegiate",
+          "section": "alpha",
+          "stems": ["immigrant", "immigrants"],
+          "offensive": false
+        },
+        "hwi": {
+          "hw": "im*mi*grant",
+          "prs": [
+            {
+              "mw": "\u02c8i-m\u0259-gr\u0259nt",
+              "sound": { "audio": "immigr01", "ref": "c", "stat": "1" }
+            }
+          ]
+        },
+        "fl": "noun",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "bs",
+                  {
+                    "sense": {
+                      "dt": [
+                        ["text", "{bc}one that {a_link|immigrates}: such as"]
+                      ]
+                    }
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "a",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a person who comes to a country to take up permanent residence"
+                      ]
+                    ]
+                  }
+                ],
+                [
+                  "sense",
+                  {
+                    "sn": "b",
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}a plant or animal that becomes established in an area where it was previously unknown"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ],
+        "uros": [{ "ure": "immigrant", "fl": "adjective" }],
+        "date": "1788",
+        "shortdef": [
+          "one that immigrates: such as",
+          "a person who comes to a country to take up permanent residence",
+          "a plant or animal that becomes established in an area where it was previously unknown"
+        ]
+      }
+    ]
+  }
+]

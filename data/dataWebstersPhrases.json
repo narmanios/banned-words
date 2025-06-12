@@ -1,0 +1,64 @@
+[
+  {
+    "word_name": "woman",
+    "phrases": [
+      "woman of color",
+      "woman of ill repute",
+      "woman of letters",
+      "woman of the street",
+      "woman's rights",
+      "woman suffrage",
+      "woman of the world",
+      "woman's/feminine touch",
+      "anti-woman"
+    ]
+  },
+  {
+    "word_name": "gender",
+    "phrases": [
+      "gender-affirming surgery",
+      "gender bender",
+      "gender confirmation surgery",
+      "gender dysphoria",
+      "gender euphoria",
+      "gender expression",
+      "gender-fluid"
+    ]
+  },
+  {
+    "word_name": "disability",
+    "phrases": [
+      "developmental disability",
+      "intellectual disability",
+      "learning disability"
+    ]
+  },
+  {
+    "word_name": "identity",
+    "phrases": [
+      "identity element",
+      "identity card",
+      "identity crisis",
+      "identity matrix",
+      "identity politics",
+      "identity theft",
+      "identity parade",
+      "additive identity",
+      "dissociative identity disorder"
+    ]
+  },
+  {
+    "word_name": "community",
+    "phrases": [
+      "community-acquired",
+      "community antenna television",
+      "community center",
+      "community chest",
+      "community college",
+      "community immunity",
+      "community property",
+      "community spread",
+      "community-supported agriculture"
+    ]
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "word_name": "woman",
+    "word_def": [
+      {
+        "meta": { "id": "woman_1", "stems": ["woman"] },
+        "fl": "noun",
+        "shortdef": [
+          "an adult female human being",
+          "female or feminine",
+          "women collectively; womankind",
+          "traditionally feminine qualities or virtues",
+          "a female subordinate, servant, or employee",
+          "a female member of a group, team, etc",
+          "a wife, girlfriend, etc",
+          "to provide with women",
+          "to make effeminate"
+        ]
+      }
+    ]
+  },
+  {
+    "word_name": "gender",
+    "word_def": [
+      {
+        "meta": { "id": "gender_1", "stems": ["gender"] },
+        "fl": "noun",
+        "shortdef": [
+          "the state of being male or female with reference to socially and culturally defined characteristics of masculinity or femininity, or of having an identity that does not correspond to such characteristics",
+          "all the members of one sex",
+          "the state of being male, female, or neuter",
+          "a set of two or more grammatical categories into which the nouns of certain languages are divided, sometimes but not necessarily corresponding to the sex of the referent when animate",
+          "any of the categories, such as masculine, feminine, neuter, or common, within such a set"
+        ]
+      }
+    ]
+  },
+  {
+    "word_name": "disability",
+    "word_def": [
+      {
+        "meta": { "id": "disability_1", "stems": ["disability"] },
+        "fl": "noun",
+        "shortdef": [
+          "a physical or mental condition or illness that restricts a person in his or her ability to move or use his or her senses",
+          "something that disables; handicap",
+          "lack of necessary intelligence, strength, etc",
+          "an incapacity in the eyes of the law to enter into certain transactions"
+        ]
+      }
+    ]
+  },
+  {
+    "word_name": "identity",
+    "word_def": [
+      {
+        "meta": { "id": "identity_1", "stems": ["identity"] },
+        "fl": "noun",
+        "shortdef": [
+          "the state of having unique identifying characteristics held by no other person or thing",
+          "the individual characteristics by which a person or thing is recognized",
+          "the property of being one and the same individual",
+          "the state of being the same in nature, quality, etc",
+          "the state of being the same as a person or thing described or claimed",
+          "identification of oneself as",
+          "that relation that holds only between any entity and itself",
+          "that relation that holds only between any entity and itself",
+          "an assertion that that relation holds, as Cicero is Tully",
+          "an equation that is valid for all values of its variables, as in (x \u2013 y)(x + y) = x2 \u2013 y2. Often denoted by the symbol \u2261",
+          "an equation that is valid for all values of its variables, as in (x \u2013 y)(x + y) = x2 \u2013 y2. Often denoted by the symbol \u2261",
+          "a member of a set that when operating on another member, x, produces that member x: the identity for multiplication of numbers is 1 since x.1 = 1.x = x",
+          "a well-known person, esp in a specified locality; figure (esp in the phrase an old identity)"
+        ]
+      }
+    ]
+  },
+  {
+    "word_name": "community",
+    "word_def": [
+      {
+        "meta": { "id": "community_1", "stems": ["community"] },
+        "fl": "noun",
+        "shortdef": [
+          "the people living in one locality",
+          "the people living in one locality",
+          "the locality in which they live",
+          "(as modifier)",
+          "a group of people having cultural, religious, ethnic, or other characteristics in common",
+          "a group of nations having certain interests in common",
+          "the public in general; society",
+          "common ownership or participation",
+          "similarity or agreement",
+          "(in Wales since 1974 and Scotland since 1975) the smallest unit of local government; a subdivision of a district",
+          "a group of interdependent plants and animals inhabiting the same region and interacting with each other through food and other relationships"
+        ]
+      }
+    ]
+  }
+]

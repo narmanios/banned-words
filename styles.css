@@ -1,0 +1,499 @@
+/* Set the body as a full screen grid */
+body {
+  height: 100%;
+  margin: 0; /* Ensure no margin is applied */
+  padding: 0; /* Ensure no padding is applied */
+
+  overflow-y: auto; /* Enable scrolling for content */
+}
+
+.righteous-regular {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.h1 {
+  position: absolute; /* Position relative to the nearest positioned ancestor */
+  top: 20px; /* Adjust to position it where you want vertically */
+  left: 50%; /* Position it in the center horizontally */
+  transform: translateX(-50%); /* Offset by 50% of its own width to center it */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 7vw;
+  color: rgb(32, 32, 32); /* Adjust text color */
+  z-index: 20; /* Ensure it stays on top of the grid */
+}
+
+h2 span {
+  transform: translateX(-50%); /* Offset by 50% of its own width to center it */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5vw;
+  color: rgb(255, 255, 255); /* Adjust text color */
+  z-index: 20; /* Ensure it stays on top of the grid */
+}
+.h2 {
+  position: absolute; /* Position relative to the nearest positioned ancestor */
+  top: 10px; /* Adjust to position it where you want vertically */
+  left: 50%; /* Position it in the center horizontally */
+  transform: translateX(-50%); /* Offset by 50% of its own width to center it */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 2.5vw;
+  color: rgb(32, 32, 32); /* Adjust text color */
+  z-index: 20; /* Ensure it stays on top of the grid */
+}
+.h3 {
+  position: absolute; /* Position relative to the nearest positioned ancestor */
+  top: 21vh; /* Adjust to position it where you want vertically */
+  left: 50%; /* Position it in the center horizontally */
+  transform: translateX(-50%); /* Offset by 50% of its own width to center it */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 2.5vw;
+  color: rgb(32, 32, 32); /* Adjust text color */
+  z-index: 20; /* Ensure it stays on top of the grid */
+}
+
+.h3white {
+  position: absolute; /* Position relative to the nearest positioned ancestor */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 1.25vw;
+  color: rgb(255, 255, 255); /* Adjust text color */
+  z-index: 20; /* Ensure it stays on top of the grid */
+}
+
+.h4 {
+  width: 650px;
+  position: absolute; /* Position relative to the nearest positioned ancestor */
+  top: 67vh; /* Adjust to position it where you want vertically */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.25vw;
+  text-align: center;
+}
+
+h4 .attribution {
+  font-size: 1vw;
+  font-style: italic;
+  color: black;
+}
+
+/* Position the word list container above the grid */
+#word-list {
+  position: absolute;
+  top: 20px; /* Adjust the value to position it correctly above the grid */
+  left: 20px;
+  /* transform: translateX(-50%); */
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  max-width: 300px;
+  /* border-radius: 5px; */
+  display: none; /* Initially hidden */
+  z-index: 10; /* Ensure it stays above the grid */
+}
+/* Grid Wrapper */
+.grid-wrapper {
+  background: url("./images/FaceMouth.png") no-repeat center center;
+  background-size: cover; /* Ensure the background image covers the screen */
+  width: 100vw;
+  height: 100vh; /* Full viewport height */
+  position: relative;
+  display: flex; /* Use Flexbox to center content */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-grow: 1; /* Allow grid-wrapper to grow */
+}
+
+/* Grid container */
+/* Grid Container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 0px;
+  width: 42vw;
+  height: 18vw;
+  aspect-ratio: 1;
+}
+
+/* Optional: Style the grid container */
+/* .grid-container {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 0px;
+  width: 40vw;
+  height: 20vw;
+  aspect-ratio: 1;
+  /* margin-top: 100px; Create space for word list to appear above
+} */
+
+/* Style each grid item (letter) */
+.grid-item {
+  font-size: 1.75rem;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s; /* Add transition for a smoother hover effect */
+}
+
+.grid-item:hover {
+  /* font-family: "Playwrite MX Guides", cursive; */
+  font-weight: 200;
+  font-size: 1.25rem;
+  font-style: normal;
+  /* text-decoration: line-through; */
+  opacity: 0.7;
+  background-color: rgba(0, 0, 0, 0.8); /* Change background color on hover */
+}
+
+/* Special square for x, y, z */
+.grid-item-xyz {
+  font-size: 0.75rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s; /* Add transition for a smoother hover effect */
+}
+.grid-item span {
+  display: inline-block; /* Ensure span behaves properly */
+  filter: blur(3px); /* Apply blur by default */
+  transition: filter 0.3s; /* Smooth transition for blur effect */
+}
+
+/* Remove blur effect on hover */
+.grid-item:hover span {
+  filter: none; /* Remove the blur when hovered */
+}
+
+.grid-item-xyz:hover {
+  opacity: 0.7;
+  font-size: 0.65rem;
+
+  background-color: rgba(0, 0, 0, 0.8); /* Change background color on hover */
+}
+
+.word-name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+}
+.word-date {
+  font-size: 1rem;
+
+  color: #b7ae79; /* You can change 'red' to any color you prefer */
+}
+
+/* Empty squares for centering */
+.empty {
+  background-color: transparent;
+}
+
+/* Empty squares for centering */
+.empty {
+  background-color: transparent;
+}
+
+/* Dynamic classes for colors (we'll use JS to set these) */
+.light-font {
+  color: white;
+}
+
+.dark-font {
+  color: black;
+}
+.sticky-note {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  /* color: rgb(120, 120, 120); */
+  color: rgb(255, 255, 255);
+
+  background-color: rgb(0, 0, 0);
+  /* background-color: rgb(216, 212, 174); */
+
+  padding: 1%;
+  z-index: 20;
+}
+
+.header-dark {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: #000;
+}
+
+.header-white {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: #ffffff;
+}
+/* Game Area */
+.game-area {
+  position: relative; /* Keep game area below grid */
+  /* height: 800px; Adjust this height for your game */
+  background-color: #fff;
+  justify-items: center;
+
+  z-index: 10; /* Ensure it's above grid */
+  margin-top: 120px; /* Space between grid and game */
+  flex-shrink: 0; /* Prevent shrinking */
+  display: block !important;
+}
+
+/* Game container for Canvas */
+#game-container {
+  /* width: 800px; */
+  /* height: 800px; Adjust the height for your game */
+  /* margin-top: 20px; Space between grid and game */
+  z-index: 10 !important; /* Ensure it's above grid */
+}
+
+hr {
+  border: 1px solid rgb(240, 240, 240);
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.definitions-wrapper {
+  background-color: #000;
+  justify-items: center;
+  /* padding-bottom: 5vh;
+  padding-left: 45vh;
+  padding-right: 45vh; */
+}
+.definitions {
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding: 5vh;
+  width: 55%;
+  /* padding-bottom: 5vh;
+  padding-left: 45vh;
+  padding-right: 45vh; */
+}
+
+.word-defs {
+  color: white;
+  font-size: 48px;
+  font-weight: 100;
+}
+.definition-one,
+.definition-two,
+.definition-three,
+.definition-four,
+.definition-five,
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 40px;
+  padding-top: 6vh;
+}
+
+.phrases {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+  font-size: 16px;
+  line-height: 28px;
+  padding-top: 5vh;
+}
+
+.definitions p {
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-weight: 100; */
+  font-style: normal;
+  color: white;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.attribution {
+  font-size: 14px;
+  font-style: italic;
+  color: yellowgreen;
+}
+input,
+button {
+  z-index: 10;
+  top: 1500px;
+}
+
+.h4-themes {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.75vw;
+  text-align: center;
+}
+
+.themes {
+  display: flex; /* Use flexbox to align items */
+  /* align-items: center; Center horizontally */
+  justify-content: center; /* Center vertically */
+  width: 100%; /* Ensure the container takes full width */
+  height: 100%; /* Ensure the container takes full height */
+}
+/* Container that holds both the table and side-content */
+.layout-container {
+  display: flex; /* Makes the layout horizontal */
+  align-items: flex-start;
+  /* gap: 120px; Adds space between the table and side-content */
+  margin-top: 60px; /* Adds space above the container */
+}
+
+#layout {
+  border-collapse: collapse; /* Ensures no space between table cells */
+}
+
+/* Style for the table */
+
+#layout td:hover img {
+  opacity: 0; /* Hide the default image */
+  z-index: 0; /* Move the default image behind */
+  /* transition: opacity 0.3s ease; */
+}
+
+#layout img {
+  width: 100%; /* Make sure images fill the table cells */
+  height: 100%;
+}
+
+/* Add hover background images to table cells */
+#social-justice:hover {
+  background-image: url("images/social-justice-hover.png"); /* Hover image */
+  background-position: center;
+}
+
+#equality-diversity:hover {
+  background-image: url("images/equity-diversity-hover.png");
+  background-position: center;
+}
+
+#cultural-identity:hover {
+  background-image: url("images/cultural-identity-hover.png");
+  background-position: center;
+}
+
+#health-wellbeing:hover {
+  background-image: url("images/health-wellbeing-hover.png");
+  background-position: center;
+}
+
+#environmental-issues:hover {
+  background-image: url("images/environmental-hover.png");
+  background-position: center;
+}
+
+#bias-discrimination:hover {
+  background-image: url("images/bias-hover.png");
+  background-position: center;
+}
+
+#politics-policy:hover {
+  background-image: url("images/politics-policy-hover.png");
+  background-position: center;
+}
+
+#gender-sex:hover {
+  background-image: url("images/gender-sexuality-hover.png");
+  background-position: center;
+}
+
+#social-identity:hover {
+  background-image: url("images/social-identity-hover.png");
+  /* transform: scale(0.9); */
+  background-position: center;
+  border: #000;
+}
+
+table tr {
+  display: table;
+  border-collapse: separate; /* Keeps the cells separate but removes spacing */
+  box-sizing: border-box;
+  text-indent: initial;
+  unicode-bidi: isolate;
+  border-spacing: 0; /* Remove the spacing between cells */
+  -webkit-border-horizontal-spacing: 4px; /* Optional: Ensures no spacing on webkit-based browsers */
+  -webkit-border-vertical-spacing: 0; /* Optional: Ensures no vertical spacing */
+}
+
+/* Styling for each theme image */
+/* .theme img {
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+} */
+
+/* .theme:hover img {
+  transform: scale(1.1);
+  border-color: rgb(0, 0, 0);
+} */
+
+#side-content {
+  width: 400px;
+  margin-right: 20px;
+  padding-left: 24px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px; /* Optional: rounds the corners */
+  overflow-y: auto; /* Ensures content scrolls if it's too long */
+  position: relative;
+  float: left;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 10px; /* Adds space below the h3 */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  column-count: 2; /* Creates two columns for the list items */
+  column-gap: 20px; /* Adjusts the gap between the columns */
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+
+/* Optional: Style the header */
+.header-dark {
+  text-align: center;
+  font-size: 3em;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.conclusion {
+  justify-items: center;
+}
+
+.closing {
+  /* transform: translateX(50%); Offset by 50% of its own width to center it */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 5vh;
+  /* justify-items: center; */
+  width: 55%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}

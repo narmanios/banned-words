@@ -1,0 +1,95 @@
+[
+  {
+    "word_name": "woman",
+    "word_def": [
+      {
+        "meta": { "id": "woman_1", "stems": ["woman"] },
+        "fl": "noun",
+        "shortdef": [
+          "an adult female human being",
+          "female or feminine",
+          "women collectively; womankind",
+          "traditionally feminine qualities or virtues",
+          "a female subordinate, servant, or employee",
+          "a female member of a group, team, etc",
+          "a wife, girlfriend, etc",
+          "to provide with women",
+          "to make effeminate"
+        ]
+      }
+    ]
+  },
+  {
+    "word_name": "disability",
+    "word_def": [
+      {
+        "meta": { "id": "disability_1", "stems": ["disability"] },
+        "fl": "noun",
+        "shortdef": [
+          "a physical or mental condition or illness that restricts a person in his or her ability to move or use his or her senses",
+          "something that disables; handicap",
+          "lack of necessary intelligence, strength, etc",
+          "an incapacity in the eyes of the law to enter into certain transactions"
+        ]
+      }
+    ]
+  },
+  {
+    "word_name": "peanut allergies",
+    "word_def": [
+      {
+        "meta": { "id": "peanut-allergy_1", "stems": ["peanut allergies"] },
+        "fl": "noun",
+        "shortdef": [
+          "a condition of being hypersensitive to peanuts and peanut substances which can lead to severe physical symptoms if peanuts or peanut substances are consumed"
+        ]
+      }
+    ]
+  },
+  {
+    "word_name": "minority",
+    "word_def": [
+      {
+        "meta": { "id": "minority_1", "stems": ["minority"] },
+        "fl": "noun",
+        "shortdef": [
+          "the smaller in number of two parts, factions, or groups",
+          "a group that is different racially, politically, etc, from a larger group of which it is a part",
+          "the state of being a minor",
+          "the state of being a minor",
+          "the period during which a person is below legal age",
+          "relating to or being a minority"
+        ]
+      }
+    ]
+  },
+  {
+    "word_name": "gender",
+    "word_def": [
+      {
+        "meta": { "id": "gender_1", "stems": ["gender"] },
+        "fl": "noun",
+        "shortdef": [
+          "the state of being male or female with reference to socially and culturally defined characteristics of masculinity or femininity, or of having an identity that does not correspond to such characteristics",
+          "all the members of one sex",
+          "the state of being male, female, or neuter",
+          "a set of two or more grammatical categories into which the nouns of certain languages are divided, sometimes but not necessarily corresponding to the sex of the referent when animate",
+          "any of the categories, such as masculine, feminine, neuter, or common, within such a set"
+        ]
+      }
+    ]
+  },
+  {
+    "word_name": "fluoride",
+    "word_def": [
+      {
+        "meta": { "id": "fluoride_1", "stems": ["fluoride"] },
+        "fl": "noun",
+        "shortdef": [
+          "any salt of hydrofluoric acid, containing the fluoride ion, F\u2013",
+          "any compound containing fluorine, such as methyl fluoride"
+        ]
+      }
+    ]
+  }
+]
