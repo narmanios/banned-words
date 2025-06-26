@@ -271,6 +271,10 @@ hr {
   margin-top: 80px;
 }
 
+#result {
+  display: none;
+}
+
 .definitions-wrapper {
   background-color: #000;
   justify-items: center;
