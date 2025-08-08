@@ -25,9 +25,9 @@
 <body>
     <div class=" grid-wrapper">
         <h1 class="h1">Banned Words</h1>
-        <h2 class="h2">2025 U.S. Government Grant and Policy</h2>
-        <h3 class="h3">A growing list of 300+ words/terms<h3>
-                <h4 class="h4">Their year of
+        <h2 class="h2">2025 U.S. Grant and Policy</h2>
+        <h3 class="h3">A growing list of 300+ words/terms...<h3>
+                <h4 class="h4">...their year of
                     origin, definition, and associated themes <br>aimed at eliminating important social issues.<br>
                 </h4>
 
@@ -83,7 +83,7 @@
 
     </div>
 
-    <div class="sticky-note">FACT: Words NOT on the banned list by the U.S. Government include "White" + "Men"</div>
+    <!-- <div class="sticky-note">FACT: Words NOT on the banned list by the U.S. Government include "White" + "Men"</div> -->
 
 
     <div class="word-list" id="word-list"></div>
@@ -156,7 +156,7 @@
     </div>
 
     <h1 class="header-dark">Word Games</h1>
-    <h4 class="h4-themes">Our government's step-by-step play to eliminate social issues</h4>
+    <h4 class="h4-themes">...that eliminate social issues</h4>
     <div class="themes">
         <table id="layout">
 
@@ -190,43 +190,40 @@
 
     <script src="./themes.js" type="module" async></script>
     <hr>
-    <!-- <div>
+    <div>
         <div class="game-area">
             <h4 class="h4-themes">The random ban on words - take a guess</h4>
 
             <div id="game-container">
 
             </div>
-        </div> -->
+        </div>
 
 
-    <hr>
+        <hr>
 
-    <!-- <search game-> -->
-    <div class="game-area">
-        <h1 class="header-dark">The random ban on words</h1>
+        <!-- <search game-> -->
+        <div class="game-area">
+            <h1 class="header-dark">The random ban on words</h1>
 
-        <h4 class="h4-themes">Type a word or term to see if it's currently banned <br>from policy and grant
-            applications in 2025.</h4>
-        <form autocomplete="off">
-            <div><input type="text" placeholder="Enter a word or term" id="site-search" name="q" /></div>
-            <ul class="suggestions"></ul>
-        </form>
+            <h4 class="h4-themes">Type a word or term to see if it's currently banned <br>from policy and grant
+                applications in 2025.</h4>
+            <form autocomplete="off">
+                <div><input type="text" placeholder="Enter a word or term" id="site-search" name="q" /></div>
+                <ul class="suggestions"></ul>
+            </form>
 
-        <div id="result"></div>
-        <!-- <button>Search</button> -->
-    </div>
-    <div class="conclusion">
-        <p class="closing">Language, like culture, is dynamic and adapts to new environments and ideas. Words
-            are
-            not just sounds, they carry cultural and historical information, reflecting the experiences and
-            knowledge of
-            a
-            community.</p>
-    </div>
-
-
-
+            <div id="result"></div>
+            <!-- <button>Search</button> -->
+        </div>
+        <div class="conclusion">
+            <p class="closing">Language, like culture, is dynamic and adapts to new environments and ideas. Words
+                are
+                not just sounds, they carry cultural and historical information, reflecting the experiences and
+                knowledge of
+                a
+                community.</p>
+        </div>
 
 
 
@@ -240,316 +237,319 @@
 
 
 
-    <script src="game.js" type="module"></script>
-    <script src="searchgame.js" type="module" defer></script>
-
-    <script>
-        // Force display: flex on the game area
-        document.querySelector('.game-area').style.display = 'flex';
-    </script>
-
-    <script>
-        const colors = [
-            '#D5D1D1', '#B79168', '#7A9C94', '#188971', '#668A82', '#6E6E6E',
-            '#84AD78', '#B7AE79', '#A8A9A9', '#C0DFD8'
-        ];
 
 
-        const gridItems = document.querySelectorAll('.grid-item');
 
-        // Function to calculate brightness
-        function getBrightness(color) {
-            // Convert hex to RGB
-            const r = parseInt(color.substring(1, 3), 16);
-            const g = parseInt(color.substring(3, 5), 16);
-            const b = parseInt(color.substring(5, 7), 16);
-            // Calculate brightness using the formula: 0.299*R + 0.587*G + 0.114*B
-            return 0.299 * r + 0.587 * g + 0.114 * b;
-        }
+        <script src="game.js" type="module"></script>
+        <script src="searchgame.js" type="module" defer></script>
 
-        // Function to randomize the colors for each grid item
-        function applyRandomColors() {
-            gridItems.forEach((item, index) => {
-                // Get a random color from the list
-                const color = colors[Math.floor(Math.random() * colors.length)];
-                // Apply the color to the background
-                item.style.backgroundColor = color;
+        <script>
+            // Force display: flex on the game area
+            document.querySelector('.game-area').style.display = 'flex';
+        </script>
 
-                // Check the brightness to set the font color accordingly
-                const brightness = getBrightness(color);
-                if (brightness < 128) {
-                    item.classList.add('light-font');
-                    item.classList.remove('dark-font');
-                } else {
-                    item.classList.add('dark-font');
-                    item.classList.remove('light-font');
-                }
+        <script>
+            const colors = [
+                '#D5D1D1', '#B79168', '#7A9C94', '#188971', '#668A82', '#6E6E6E',
+                '#84AD78', '#B7AE79', '#A8A9A9', '#C0DFD8'
+            ];
+
+
+            const gridItems = document.querySelectorAll('.grid-item');
+
+            // Function to calculate brightness
+            function getBrightness(color) {
+                // Convert hex to RGB
+                const r = parseInt(color.substring(1, 3), 16);
+                const g = parseInt(color.substring(3, 5), 16);
+                const b = parseInt(color.substring(5, 7), 16);
+                // Calculate brightness using the formula: 0.299*R + 0.587*G + 0.114*B
+                return 0.299 * r + 0.587 * g + 0.114 * b;
+            }
+
+            // Function to randomize the colors for each grid item
+            function applyRandomColors() {
+                gridItems.forEach((item, index) => {
+                    // Get a random color from the list
+                    const color = colors[Math.floor(Math.random() * colors.length)];
+                    // Apply the color to the background
+                    item.style.backgroundColor = color;
+
+                    // Check the brightness to set the font color accordingly
+                    const brightness = getBrightness(color);
+                    if (brightness < 128) {
+                        item.classList.add('light-font');
+                        item.classList.remove('dark-font');
+                    } else {
+                        item.classList.add('dark-font');
+                        item.classList.remove('light-font');
+                    }
+                });
+
+
+            }
+
+            // Call the function to apply random colors when the page loads
+            applyRandomColors();
+
+
+
+        </script>
+
+        <script>
+            // The words by alphabetical category
+            document.addEventListener('DOMContentLoaded', function () {
+                // Load the JSON file containing words by letter
+                fetch('./data/terms_by_letter_grouped_final3.json')  // Path to your JSON file
+                    .then(response => response.json())
+                    .then(data => {
+                        // Store the JSON data
+                        const wordsByLetter = data;
+
+                        // Add event listeners for each letter in the grid
+                        const gridItems = document.querySelectorAll('.grid-item, .grid-item-xyz');
+                        const wordListContainer = document.getElementById('word-list');
+
+                        gridItems.forEach(item => {
+                            item.addEventListener('mouseover', function () {
+                                const letter = item.textContent.toLowerCase();
+
+                                // Check if there are words for this letter
+                                if (wordsByLetter[letter]) {
+                                    // Clear the existing content
+                                    wordListContainer.innerHTML = '';
+
+                                    // Append each word_name and date in the list
+                                    wordsByLetter[letter].forEach(word => {
+                                        const wordElement = document.createElement('div');
+
+                                        // Ensure both word_name and date are available
+                                        const wordName = word.word_name || "No name available";
+                                        const date = word.date || "";
+
+                                        // Add color to the date using the 'word-date' class
+                                        wordElement.innerHTML = `<span class="word-name">${wordName}</span>  <span class="word-date">${date}</span>`;
+                                        wordListContainer.appendChild(wordElement);
+
+                                        // wordElement.innerHTML = `<strong>${wordName}</strong>  ${date}`;
+                                        // wordListContainer.appendChild(wordElement);
+                                    });
+
+                                    wordListContainer.style.display = 'block';
+                                } else {
+                                    wordListContainer.innerHTML = 'No words found for this letter... Yet.';
+                                    wordListContainer.style.display = 'block';
+                                }
+                            });
+
+                            item.addEventListener('mouseout', function () {
+                                wordListContainer.style.display = 'none';
+                            });
+                        });
+                    })
+                    .catch(error => console.error('Error loading the JSON file:', error));
             });
+        </script>
 
-
-        }
-
-        // Call the function to apply random colors when the page loads
-        applyRandomColors();
-
-
-
-    </script>
-
-    <script>
-        // The words by alphabetical category
-        document.addEventListener('DOMContentLoaded', function () {
-            // Load the JSON file containing words by letter
-            fetch('./data/terms_by_letter_grouped_final3.json')  // Path to your JSON file
+        <script>
+            //Websters Dictionary definitions
+            fetch('./data/dataWebsters.json')
                 .then(response => response.json())
                 .then(data => {
-                    // Store the JSON data
-                    const wordsByLetter = data;
 
-                    // Add event listeners for each letter in the grid
-                    const gridItems = document.querySelectorAll('.grid-item, .grid-item-xyz');
-                    const wordListContainer = document.getElementById('word-list');
+                    const woman = data.find(item => item.word_name === "woman");
+                    console.log(woman)
+                    // const gender = data.find(item => item.word_name === "gender");
+                    const disability = data.find(item => item.word_name === "disability");
+                    const identity = data.find(item => item.word_name === "identity");
+                    const community = data.find(item => item.word_name === "community");
 
-                    gridItems.forEach(item => {
-                        item.addEventListener('mouseover', function () {
-                            const letter = item.textContent.toLowerCase();
 
-                            // Check if there are words for this letter
-                            if (wordsByLetter[letter]) {
-                                // Clear the existing content
-                                wordListContainer.innerHTML = '';
-
-                                // Append each word_name and date in the list
-                                wordsByLetter[letter].forEach(word => {
-                                    const wordElement = document.createElement('div');
-
-                                    // Ensure both word_name and date are available
-                                    const wordName = word.word_name || "No name available";
-                                    const date = word.date || "";
-
-                                    // Add color to the date using the 'word-date' class
-                                    wordElement.innerHTML = `<span class="word-name">${wordName}</span>  <span class="word-date">${date}</span>`;
-                                    wordListContainer.appendChild(wordElement);
-
-                                    // wordElement.innerHTML = `<strong>${wordName}</strong>  ${date}`;
-                                    // wordListContainer.appendChild(wordElement);
-                                });
-
-                                wordListContainer.style.display = 'block';
-                            } else {
-                                wordListContainer.innerHTML = 'No words found for this letter... Yet.';
-                                wordListContainer.style.display = 'block';
-                            }
-                        });
-
-                        item.addEventListener('mouseout', function () {
-                            wordListContainer.style.display = 'none';
-                        });
-                    });
+                    // Inject definitions into the HTML
+                    document.getElementById("woman-definition-websters").innerHTML = woman.word_def[0].shortdef.join('. ');
+                    // document.getElementById("gender-definition-collins").innerHTML = gender.word_def[0].shortdef.join('. ');
+                    document.getElementById("disability-definition-websters").innerHTML = disability.word_def[0].shortdef.join('. ');
+                    document.getElementById("identity-definition-websters").innerHTML = identity.word_def[0].shortdef.join('. ');
+                    document.getElementById("community-definition-websters").innerHTML = community.word_def[0].shortdef.join('. ');
                 })
-                .catch(error => console.error('Error loading the JSON file:', error));
-        });
-    </script>
+                .catch(error => {
+                    console.error('Error loading the JSON file:', error);
+                });
+        </script>
 
-    <script>
-        //Websters Dictionary definitions
-        fetch('./data/dataWebsters.json')
-            .then(response => response.json())
-            .then(data => {
+        <script>
+            fetch('./data/dataCollins.json')
+                .then(response => response.json())
+                .then(data => {
 
-                const woman = data.find(item => item.word_name === "woman");
-                console.log(woman)
-                // const gender = data.find(item => item.word_name === "gender");
-                const disability = data.find(item => item.word_name === "disability");
-                const identity = data.find(item => item.word_name === "identity");
-                const community = data.find(item => item.word_name === "community");
-
-
-                // Inject definitions into the HTML
-                document.getElementById("woman-definition-websters").innerHTML = woman.word_def[0].shortdef.join('. ');
-                // document.getElementById("gender-definition-collins").innerHTML = gender.word_def[0].shortdef.join('. ');
-                document.getElementById("disability-definition-websters").innerHTML = disability.word_def[0].shortdef.join('. ');
-                document.getElementById("identity-definition-websters").innerHTML = identity.word_def[0].shortdef.join('. ');
-                document.getElementById("community-definition-websters").innerHTML = community.word_def[0].shortdef.join('. ');
-            })
-            .catch(error => {
-                console.error('Error loading the JSON file:', error);
-            });
-    </script>
-
-    <script>
-        fetch('./data/dataCollins.json')
-            .then(response => response.json())
-            .then(data => {
-
-                const gender = data.find(item => item.word_name === "gender");
-                // const disability = data.find(item => item.word_name === "disability");
-                // const identity = data.find(item => item.word_name === "identity");
-                // const community = data.find(item => item.word_name === "community");
+                    const gender = data.find(item => item.word_name === "gender");
+                    // const disability = data.find(item => item.word_name === "disability");
+                    // const identity = data.find(item => item.word_name === "identity");
+                    // const community = data.find(item => item.word_name === "community");
 
 
 
-                document.getElementById("gender-definition-collins").innerHTML = gender.word_def[0].shortdef.join('. ');
-                // document.getElementById("disability-definition-websters").innerHTML = disability.word_def[0].shortdef.join('. ');
-                // document.getElementById("identity-definition-websters").innerHTML = identity.word_def[0].shortdef.join('. ');
-                // document.getElementById("community-definition-websters").innerHTML = community.word_def[0].shortdef.join('. ');
-            })
-            .catch(error => {
-                console.error('Error loading the JSON file:', error);
-            });
-    </script>
-    <script>
-        //Websters Dictionary Phrases
-        fetch('./data/dataWebstersPhrases.json')
-            .then(response => response.json())
-            .then(data => {
+                    document.getElementById("gender-definition-collins").innerHTML = gender.word_def[0].shortdef.join('. ');
+                    // document.getElementById("disability-definition-websters").innerHTML = disability.word_def[0].shortdef.join('. ');
+                    // document.getElementById("identity-definition-websters").innerHTML = identity.word_def[0].shortdef.join('. ');
+                    // document.getElementById("community-definition-websters").innerHTML = community.word_def[0].shortdef.join('. ');
+                })
+                .catch(error => {
+                    console.error('Error loading the JSON file:', error);
+                });
+        </script>
+        <script>
+            //Websters Dictionary Phrases
+            fetch('./data/dataWebstersPhrases.json')
+                .then(response => response.json())
+                .then(data => {
 
-                const woman = data.find(item => item.word_name === "woman");
-                // console.log("looking for the definition", (womanDef))
-                // console.log("this is the Collins Dict", (woman))
-                const gender = data.find(item => item.word_name === "gender");
-                const disability = data.find(item => item.word_name === "disability");
-                const identity = data.find(item => item.word_name === "identity");
-                const community = data.find(item => item.word_name === "community");
+                    const woman = data.find(item => item.word_name === "woman");
+                    // console.log("looking for the definition", (womanDef))
+                    // console.log("this is the Collins Dict", (woman))
+                    const gender = data.find(item => item.word_name === "gender");
+                    const disability = data.find(item => item.word_name === "disability");
+                    const identity = data.find(item => item.word_name === "identity");
+                    const community = data.find(item => item.word_name === "community");
 
-                // Function to convert phrases into a list
-                function generatePhraseList(phrases) {
-                    const ul = document.createElement("ul");
-                    phrases.forEach(phrase => {
-                        const li = document.createElement("li");
-                        li.textContent = phrase;
-                        ul.appendChild(li);
-                    });
-                    return ul;
+                    // Function to convert phrases into a list
+                    function generatePhraseList(phrases) {
+                        const ul = document.createElement("ul");
+                        phrases.forEach(phrase => {
+                            const li = document.createElement("li");
+                            li.textContent = phrase;
+                            ul.appendChild(li);
+                        });
+                        return ul;
+                    }
+
+                    // Inject phrases as a list into the HTML
+                    document.getElementById("woman-definition-phrases").appendChild(generatePhraseList(woman.phrases));
+                    document.getElementById("gender-definition-phrases").appendChild(generatePhraseList(gender.phrases));
+                    document.getElementById("disability-definition-phrases").appendChild(generatePhraseList(disability.phrases));
+                    document.getElementById("identity-definition-phrases").appendChild(generatePhraseList(identity.phrases));
+                    document.getElementById("community-definition-phrases").appendChild(generatePhraseList(community.phrases));
+                })
+                .catch(error => {
+                    console.error('Error loading the JSON file:', error);
+                });
+        </script>
+
+        <script>
+
+            //Puzzle
+            console.log("game.js is loaded");
+
+            let words = [
+                "multicultural",
+                "belong",
+                "community",
+                "pollution",
+                "immigrants",
+            ];
+            let definitions = {
+                multicultural:
+                    "Relating to, reflecting, or adapted to diverse cultures.",
+                belong: "To be suitable, appropriate, or advantageous.",
+                community:
+                    "Group of people with a common characteristic or interest living together within a larger society.",
+                pollution:
+                    "The action of making an environment unsuitable or unsafe for use by introducing man-made waste.",
+                immigrants:
+                    "A person who comes to a country to take up permanent residence.",
+            };
+            console.log("Words:", words); // 
+
+            let guessedWords = [];
+            let input;
+            let definitionText = {};
+
+            // p5.js setup function
+            function setup() {
+                console.log("setup() is running");
+
+                let canvas = createCanvas(1200, 600);
+                console.log("Canvas created");
+
+                canvas.parent("game-container");
+                console.log("Canvas attached to game-container");
+
+                background(128, 128, 0);
+
+                input = createInput();
+                input.parent("game-container"); // Attach input field to game-container
+                let containerWidth = select('#game-container').width;
+
+                input.position((containerWidth - input.width) / 2, 80);
+
+                // Create a submit button
+                let submitButton = createButton("Guess");
+                submitButton.parent("game-container"); // Attach button to game-container
+                submitButton.position(input.x + input.width, 80);
+                submitButton.mousePressed(checkGuess);
+
+                // Initialize definitionText with all definitions
+                for (let word of words) {
+                    definitionText[word] = definitions[word];
                 }
-
-                // Inject phrases as a list into the HTML
-                document.getElementById("woman-definition-phrases").appendChild(generatePhraseList(woman.phrases));
-                document.getElementById("gender-definition-phrases").appendChild(generatePhraseList(gender.phrases));
-                document.getElementById("disability-definition-phrases").appendChild(generatePhraseList(disability.phrases));
-                document.getElementById("identity-definition-phrases").appendChild(generatePhraseList(identity.phrases));
-                document.getElementById("community-definition-phrases").appendChild(generatePhraseList(community.phrases));
-            })
-            .catch(error => {
-                console.error('Error loading the JSON file:', error);
-            });
-    </script>
-
-    <script>
-
-        //Puzzle
-        console.log("game.js is loaded");
-
-        let words = [
-            "multicultural",
-            "belong",
-            "community",
-            "pollution",
-            "immigrants",
-        ];
-        let definitions = {
-            multicultural:
-                "Relating to, reflecting, or adapted to diverse cultures.",
-            belong: "To be suitable, appropriate, or advantageous.",
-            community:
-                "Group of people with a common characteristic or interest living together within a larger society.",
-            pollution:
-                "The action of making an environment unsuitable or unsafe for use by introducing man-made waste.",
-            immigrants:
-                "A person who comes to a country to take up permanent residence.",
-        };
-        console.log("Words:", words); // 
-
-        let guessedWords = [];
-        let input;
-        let definitionText = {};
-
-        // p5.js setup function
-        function setup() {
-            console.log("setup() is running");
-
-            let canvas = createCanvas(1200, 600);
-            console.log("Canvas created");
-
-            canvas.parent("game-container");
-            console.log("Canvas attached to game-container");
-
-            background(128, 128, 0);
-
-            input = createInput();
-            input.parent("game-container"); // Attach input field to game-container
-            let containerWidth = select('#game-container').width;
-
-            input.position((containerWidth - input.width) / 2, 80);
-
-            // Create a submit button
-            let submitButton = createButton("Guess");
-            submitButton.parent("game-container"); // Attach button to game-container
-            submitButton.position(input.x + input.width, 80);
-            submitButton.mousePressed(checkGuess);
-
-            // Initialize definitionText with all definitions
-            for (let word of words) {
-                definitionText[word] = definitions[word];
             }
-        }
 
-        // p5.js draw function
-        function draw() {
-            background(255, 255, 255);
+            // p5.js draw function
+            function draw() {
+                background(255, 255, 255);
 
-            // Display the words as blanks
-            let yPos = 100;
-            for (let word of words) {
-                let displayWord = "";
+                // Display the words as blanks
+                let yPos = 100;
+                for (let word of words) {
+                    let displayWord = "";
 
-                // If the word has been guessed, show the full word
-                if (guessedWords.includes(word)) {
-                    displayWord = word;  // Show the full word
-                } else {
-                    // Find which letters appear more than once in the word
-                    let repeatedLetters = [];
-                    for (let i = 0; i < word.length; i++) {
-                        if (word.indexOf(word[i]) !== word.lastIndexOf(word[i]) && !repeatedLetters.includes(word[i])) {
-                            repeatedLetters.push(word[i]);
+                    // If the word has been guessed, show the full word
+                    if (guessedWords.includes(word)) {
+                        displayWord = word;  // Show the full word
+                    } else {
+                        // Find which letters appear more than once in the word
+                        let repeatedLetters = [];
+                        for (let i = 0; i < word.length; i++) {
+                            if (word.indexOf(word[i]) !== word.lastIndexOf(word[i]) && !repeatedLetters.includes(word[i])) {
+                                repeatedLetters.push(word[i]);
+                            }
+                        }
+
+                        // Only display the repeated letters, and hide all other letters
+                        for (let i = 0; i < word.length; i++) {
+                            if (repeatedLetters.includes(word[i])) {
+                                displayWord += word[i] + " ";  // Show the repeated letters
+                            } else {
+                                displayWord += "_ ";  // Hide the non-repeated letters
+                            }
                         }
                     }
 
-                    // Only display the repeated letters, and hide all other letters
-                    for (let i = 0; i < word.length; i++) {
-                        if (repeatedLetters.includes(word[i])) {
-                            displayWord += word[i] + " ";  // Show the repeated letters
-                        } else {
-                            displayWord += "_ ";  // Hide the non-repeated letters
-                        }
+                    // Show the word or the definition
+                    text(displayWord, width / 2, yPos + 2);
+
+                    // Display the definition if the word hasn't been guessed
+                    if (!guessedWords.includes(word)) {
+                        textSize(20);
+                        textAlign(CENTER, CENTER);
+                        text(definitionText[word], width / 2, yPos + 30);
                     }
+
+                    yPos += 110; // Space out each word and its definition
                 }
+            }
 
-                // Show the word or the definition
-                text(displayWord, width / 2, yPos + 2);
-
-                // Display the definition if the word hasn't been guessed
-                if (!guessedWords.includes(word)) {
-                    textSize(20);
-                    textAlign(CENTER, CENTER);
-                    text(definitionText[word], width / 2, yPos + 30);
+            // Check if the guessed word is in the list
+            function checkGuess() {
+                let guess = input.value().toLowerCase();
+                if (words.includes(guess) && !guessedWords.includes(guess)) {
+                    guessedWords.push(guess);
                 }
-
-                yPos += 110; // Space out each word and its definition
+                input.value(""); // Clear the input field
             }
-        }
-
-        // Check if the guessed word is in the list
-        function checkGuess() {
-            let guess = input.value().toLowerCase();
-            if (words.includes(guess) && !guessedWords.includes(guess)) {
-                guessedWords.push(guess);
-            }
-            input.value(""); // Clear the input field
-        }
 
 
-    </script>
+        </script>
 
 
 
