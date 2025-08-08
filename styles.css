@@ -338,6 +338,17 @@ input,
 button {
   z-index: 10;
   top: 1500px;
+  width: 250px;
+  height: 24px;
+  display: block;
+  align-items: center;
+}
+
+input {
+  font-size: 16px;
+  color: #222;
+  font-family: Arial, sans-serif;
+  padding: 4px 8px;
 }
 
 .h4-themes {

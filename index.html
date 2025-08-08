@@ -190,26 +190,37 @@
 
     <script src="./themes.js" type="module" async></script>
     <hr>
-    <div>
+    <!-- <div>
         <div class="game-area">
             <h4 class="h4-themes">The random ban on words - take a guess</h4>
 
             <div id="game-container">
 
             </div>
-        </div>
+        </div> -->
 
 
-        <hr>
+    <hr>
 
+    <!-- <search game-> -->
+    <div class="game-area">
+        <h1 class="header-dark">The random ban on words</h1>
 
-        <input type="text" id="site-search" name="q" />
+        <h4 class="h4-themes">Type a word or term to see if it's currently banned <br>from policy and grant
+            applications in 2025.</h4>
+        <form autocomplete="off">
+            <div><input type="text" placeholder="Enter a word or term" id="site-search" name="q" /></div>
+            <ul class="suggestions"></ul>
+        </form>
+
         <div id="result"></div>
         <!-- <button>Search</button> -->
     </div>
     <div class="conclusion">
-        <p class="closing">Language, like culture, is dynamic and adapts to new environments and ideas. Words are
-            not just sounds, they carry cultural and historical information, reflecting the experiences and knowledge of
+        <p class="closing">Language, like culture, is dynamic and adapts to new environments and ideas. Words
+            are
+            not just sounds, they carry cultural and historical information, reflecting the experiences and
+            knowledge of
             a
             community.</p>
     </div>
@@ -230,7 +241,7 @@
 
 
     <script src="game.js" type="module"></script>
-    <script src="searchgame.js" type="module"></script>
+    <script src="searchgame.js" type="module" defer></script>
 
     <script>
         // Force display: flex on the game area
