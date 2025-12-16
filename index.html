@@ -17,6 +17,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+MX+Guides&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="game.js" type="module"></script>
+    <script src="searchgame.js" defer></script>
+    <script src="hangman.js" defer></script>
 
 
 
@@ -86,7 +89,13 @@
     <!-- <div class="sticky-note">FACT: Words NOT on the banned list by the U.S. Government include "White" + "Men"</div> -->
 
 
-    <div class="word-list" id="word-list"></div>
+    <div class="word-list" id="word-list">
+        <div class="close-button-container">
+            <button class="close-button" id="close-button">X</button>
+        </div>
+        <div id="word-list-content"></div>
+
+    </div>
     <div class="definitions-wrapper">
         <div class="definitions">
             <h1 class="header-white">The growing war on language</h1>
@@ -155,6 +164,32 @@
         </div>
     </div>
 
+    <!-- <search game-> -->
+    <div class="game-area">
+        <h1 class="header-dark">The random ban on words</h1>
+
+        <h4 class="h4-themes">Type a word or term to see if it's currently banned <br>from policy and grant
+            applications in 2025.</h4>
+        <form autocomplete="off">
+            <div><input type="text" placeholder="Enter a word or term" id="site-search" name="q" /></div>
+            <ul class="suggestions"></ul>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+
+    <script>
+        document.getElementById("site-search").addEventListener("keydown", function (e) {
+            if (e.key === "Enter") {
+                e.preventDefault();
+            }
+        });
+
+    </script>
+    <hr>
+
+
     <h1 class="header-dark">Word Games</h1>
     <h4 class="h4-themes">...that eliminate social issues</h4>
     <div class="themes">
@@ -202,20 +237,43 @@
 
     <hr>
 
-    <!-- <search game-> -->
-    <div class="game-area">
-        <h1 class="header-dark">The random ban on words</h1>
 
-        <h4 class="h4-themes">Type a word or term to see if it's currently banned <br>from policy and grant
-            applications in 2025.</h4>
-        <form autocomplete="off">
-            <div><input type="text" placeholder="Enter a word or term" id="site-search" name="q" /></div>
-            <ul class="suggestions"></ul>
-        </form>
 
-        <div id="result"></div>
-        <!-- <button>Search</button> -->
+    <div class="wrapper">
+        <h4 class="header-dark">Try guessing words</h4>
+        <p class="h4-themes">Use the alphabet below to guess the word, or click hint to get a clue. </p>
     </div>
+
+
+
+    <div class="wrapper">
+        <div id="buttons">
+        </div>
+        <p id="catagoryName"></p>
+        <div id="hold">
+        </div>
+
+        <p id="mylives"></p>
+        <p id="clue">Clue -</p>
+        <canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+
+        <div class="container">
+            <button id="hint">Hint</button>
+            <button id="reset">Play again</button>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <hr>
+
     <div class="conclusion">
         <p class="closing">Language, like culture, is dynamic and adapts to new environments and ideas. Words
             are
@@ -225,9 +283,11 @@
             community.</p>
     </div>
 
+    <hr>
 
-    <script src="game.js" type="module"></script>
-    <script src="searchgame.js" type="module" defer></script>
+
+
+
 
     <script>
         // Force display: flex on the game area
@@ -283,6 +343,14 @@
     </script>
 
     <script>
+
+
+
+        function isTouchDevice() {
+            return (('ontouchstart' in window) ||
+                (navigator.maxTouchPoints > 0) ||
+                (navigator.msMaxTouchPoints > 0));
+        }
         // The words by alphabetical category
         document.addEventListener('DOMContentLoaded', function () {
             // Load the JSON file containing words by letter
@@ -295,43 +363,70 @@
                     // Add event listeners for each letter in the grid
                     const gridItems = document.querySelectorAll('.grid-item, .grid-item-xyz');
                     const wordListContainer = document.getElementById('word-list');
+                    const wordListContent = document.getElementById('word-list-content');
 
-                    gridItems.forEach(item => {
-                        item.addEventListener('mouseover', function () {
-                            const letter = item.textContent.toLowerCase();
-
-                            // Check if there are words for this letter
-                            if (wordsByLetter[letter]) {
-                                // Clear the existing content
-                                wordListContainer.innerHTML = '';
-
-                                // Append each word_name and date in the list
-                                wordsByLetter[letter].forEach(word => {
-                                    const wordElement = document.createElement('div');
-
-                                    // Ensure both word_name and date are available
-                                    const wordName = word.word_name || "No name available";
-                                    const date = word.date || "";
-
-                                    // Add color to the date using the 'word-date' class
-                                    wordElement.innerHTML = `<span class="word-name">${wordName}</span>  <span class="word-date">${date}</span>`;
-                                    wordListContainer.appendChild(wordElement);
-
-                                    // wordElement.innerHTML = `<strong>${wordName}</strong>  ${date}`;
-                                    // wordListContainer.appendChild(wordElement);
-                                });
-
-                                wordListContainer.style.display = 'block';
-                            } else {
-                                wordListContainer.innerHTML = 'No words found for this letter... Yet.';
-                                wordListContainer.style.display = 'block';
-                            }
-                        });
-
-                        item.addEventListener('mouseout', function () {
-                            wordListContainer.style.display = 'none';
-                        });
+                    // Close button functionality
+                    const closeButton = document.getElementById('close-button');
+                    closeButton.addEventListener('click', function () {
+                        wordListContainer.style.display = 'none';
                     });
+
+                    ////////////////////////////////////
+                    function showWordsForLetter(item) {
+                        const letter = item.textContent.toLowerCase();
+
+                        // Check if there are words for this letter
+                        if (wordsByLetter[letter]) {
+                            // Clear the existing content
+                            wordListContent.innerHTML = '';
+
+                            // Append each word_name and date in the list
+                            wordsByLetter[letter].forEach(word => {
+                                const wordElement = document.createElement('div');
+
+                                // Ensure both word_name and date are available
+                                const wordName = word.word_name || "No name available";
+                                const date = word.date || "";
+
+                                // Add color to the date using the 'word-date' class
+                                wordElement.innerHTML = `<span class="word-name">${wordName}</span>  <span class="word-date">${date}</span>`;
+                                wordListContent.appendChild(wordElement);
+
+                                // wordElement.innerHTML = `<strong>${wordName}</strong>  ${date}`;
+                                // wordListContainer.appendChild(wordElement);
+                            });
+
+                            wordListContainer.style.display = 'block';
+                        } else {
+                            wordListContent.innerHTML = 'No words found for this letter... Yet.';
+                            wordListContainer.style.display = 'block';
+                        }
+                    }
+                    ///////////////////////////
+
+
+
+                    if (isTouchDevice()) {
+                        gridItems.forEach(item => {
+                            item.addEventListener('click', () => {
+                                showWordsForLetter(item);
+                            });
+                        });
+
+                    }
+                    else {
+                        gridItems.forEach(item => {
+                            item.addEventListener('mouseover', () => {
+                                showWordsForLetter(item);
+
+                            });
+                            item.addEventListener('mouseout', function () {
+                                wordListContainer.style.display = 'none';
+                            });
+                        });
+                    }
+
+
                 })
                 .catch(error => console.error('Error loading the JSON file:', error));
         });
