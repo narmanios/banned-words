@@ -642,6 +642,13 @@ li {
   display: none;
 }
 
+#word-list.visible {
+  display: block;
+}
+body:has(#word-list.visible) {
+  overflow: hidden;
+}
+
 @media (pointer: coarse) and (hover: none) {
   .close-button-container {
     display: block;
@@ -658,5 +665,6 @@ li {
     width: 100%;
     box-sizing: border-box;
     overflow: scroll;
+    z-index: 1000;
   }
 }

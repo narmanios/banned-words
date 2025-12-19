@@ -368,7 +368,7 @@
                     // Close button functionality
                     const closeButton = document.getElementById('close-button');
                     closeButton.addEventListener('click', function () {
-                        wordListContainer.style.display = 'none';
+                        wordListContainer.classList.remove('visible');
                     });
 
                     ////////////////////////////////////
@@ -396,10 +396,10 @@
                                 // wordListContainer.appendChild(wordElement);
                             });
 
-                            wordListContainer.style.display = 'block';
+                            wordListContainer.classList.add('visible');
                         } else {
                             wordListContent.innerHTML = 'No words found for this letter... Yet.';
-                            wordListContainer.style.display = 'block';
+                            wordListContainer.classList.add('visible');
                         }
                     }
                     ///////////////////////////
@@ -421,7 +421,7 @@
 
                             });
                             item.addEventListener('mouseout', function () {
-                                wordListContainer.style.display = 'none';
+                                wordListContainer.classList.remove('visible');
                             });
                         });
                     }
