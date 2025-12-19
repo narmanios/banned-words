@@ -249,6 +249,11 @@ h4 .attribution {
   z-index: 10 !important; /* Ensure it's above grid */
 }
 
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 hr {
   border: 1px solid rgb(240, 240, 240);
   width: 75%;
@@ -522,7 +527,6 @@ button:hover {
 
 #layout img {
   width: 100%; /* Make sure images fill the table cells */
-  height: 100%;
 }
 
 /* Add hover background images to table cells */
