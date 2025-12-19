@@ -126,25 +126,25 @@ window.onload = function () {
 
   // Hangman
   canvas = function () {
-    myStickman = document.getElementById("stickman");
-    context = myStickman.getContext("2d");
-    context.beginPath();
-    context.strokeStyle = "#fff";
-    context.lineWidth = 2;
+    // myStickman = document.getElementById("stickman");
+    // context = myStickman.getContext("2d");
+    // context.beginPath();
+    // context.strokeStyle = "#fff";
+    // context.lineWidth = 2;
   };
 
   head = function () {
-    myStickman = document.getElementById("stickman");
-    context = myStickman.getContext("2d");
-    context.beginPath();
-    context.arc(60, 25, 10, 0, Math.PI * 2, true);
-    context.stroke();
+    // myStickman = document.getElementById("stickman");
+    // context = myStickman.getContext("2d");
+    // context.beginPath();
+    // context.arc(60, 25, 10, 0, Math.PI * 2, true);
+    // context.stroke();
   };
 
   draw = function ($pathFromx, $pathFromy, $pathTox, $pathToy) {
-    context.moveTo($pathFromx, $pathFromy);
-    context.lineTo($pathTox, $pathToy);
-    context.stroke();
+    // context.moveTo($pathFromx, $pathFromy);
+    // context.lineTo($pathTox, $pathToy);
+    // context.stroke();
   };
 
   frame1 = function () {
@@ -740,7 +740,7 @@ window.onload = function () {
     correct.parentNode.removeChild(correct);
     letters.parentNode.removeChild(letters);
     showClue.innerHTML = "";
-    context.clearRect(0, 0, 400, 400);
+    // context.clearRect(0, 0, 400, 400);
     play();
   };
 };

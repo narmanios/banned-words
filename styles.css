@@ -14,20 +14,16 @@ body {
 }
 
 .h1 {
-  position: absolute; /* Position relative to the nearest positioned ancestor */
-  top: 20px; /* Adjust to position it where you want vertically */
-  left: 50%; /* Position it in the center horizontally */
-  transform: translateX(-50%); /* Offset by 50% of its own width to center it */
+  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
   font-style: normal;
   font-size: 7vw;
   color: rgb(32, 32, 32); /* Adjust text color */
-  z-index: 20; /* Ensure it stays on top of the grid */
+  z-index: 20;
 }
 
 h2 span {
-  transform: translateX(-50%); /* Offset by 50% of its own width to center it */
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -36,10 +32,8 @@ h2 span {
   z-index: 20; /* Ensure it stays on top of the grid */
 }
 .h2 {
-  position: absolute; /* Position relative to the nearest positioned ancestor */
-  top: 10px; /* Adjust to position it where you want vertically */
-  left: 50%; /* Position it in the center horizontally */
-  transform: translateX(-50%); /* Offset by 50% of its own width to center it */
+  margin: 0;
+
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
   font-style: normal;
@@ -48,10 +42,8 @@ h2 span {
   z-index: 20; /* Ensure it stays on top of the grid */
 }
 .h3 {
-  position: absolute; /* Position relative to the nearest positioned ancestor */
-  top: 21vh; /* Adjust to position it where you want vertically */
-  left: 50%; /* Position it in the center horizontally */
-  transform: translateX(-50%); /* Offset by 50% of its own width to center it */
+  margin: 0;
+
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
   font-size: 2.5vw;
@@ -60,17 +52,18 @@ h2 span {
 }
 
 .h3white {
+  margin: 0;
+
   position: absolute; /* Position relative to the nearest positioned ancestor */
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
-  font-size: 1.25vw;
+  font-size: 20px;
   color: rgb(255, 255, 255); /* Adjust text color */
   z-index: 20; /* Ensure it stays on top of the grid */
 }
 
 .h4 {
-  width: 650px;
-  position: absolute; /* Position relative to the nearest positioned ancestor */
+  /* width: 650px; */
   top: 67vh; /* Adjust to position it where you want vertically */
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
@@ -108,7 +101,12 @@ h4 .attribution {
   display: flex; /* Use Flexbox to center content */
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
+  flex-direction: column;
   flex-grow: 1; /* Allow grid-wrapper to grow */
+}
+.wrapper {
+  width: 75%;
+  margin: 0 auto;
 }
 
 /* Grid container */
@@ -122,19 +120,6 @@ h4 .attribution {
   height: 18vw;
   aspect-ratio: 1;
 }
-
-/* Optional: Style the grid container */
-/* .grid-container {
-  position: absolute;
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 0px;
-  width: 40vw;
-  height: 20vw;
-  aspect-ratio: 1;
-  /* margin-top: 100px; Create space for word list to appear above
-} */
 
 /* Style each grid item (letter) */
 .grid-item {
@@ -355,15 +340,14 @@ input {
 .h4-themes {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
-  font-size: 1.75vw;
+  font-size: 20px;
   text-align: center;
 }
 
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
-  font-size: 1.25vw;
-  text-align: center;
+  font-size: 20px;
 }
 
 .themes {
@@ -391,6 +375,32 @@ p {
   --base-color: var(--green);
 }
 
+#pop-up {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 80%;
+  max-height: 80%;
+  overflow-y: auto;
+  z-index: 1000;
+  display: none;
+}
+#pop-up.visible {
+  display: block;
+}
+#pop-up.visible .close-button-container {
+  display: block;
+}
+
+body:has(#pop-up.visible) {
+  overflow: hidden;
+}
+
 /* body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -406,11 +416,11 @@ p {
   margin: 0 auto;
 }
 
-canvas {
+/* canvas {
   color: var(--white);
   border: var(--white) dashed 2px;
   padding: 15px;
-}
+} */
 
 #alphabet {
   margin: 15px auto;
@@ -586,10 +596,9 @@ table tr {
 } */
 
 #side-content {
-  width: 400px;
+  /* width: 400px; */
   margin-right: 20px;
   padding-left: 24px;
-  background-color: rgb(255, 255, 255);
   border-radius: 8px; /* Optional: rounds the corners */
   overflow-y: auto; /* Ensures content scrolls if it's too long */
   position: relative;
@@ -640,6 +649,8 @@ li {
 
 .close-button-container {
   display: none;
+  position: sticky;
+  top: 0;
 }
 
 #word-list.visible {
@@ -666,5 +677,42 @@ body:has(#word-list.visible) {
     box-sizing: border-box;
     overflow: scroll;
     z-index: 1000;
+  }
+  .grid-container {
+    width: 80vw;
+    height: 34vw;
+  }
+  .grid-wrapper {
+    flex-direction: column;
+  }
+  .h1 {
+    font-size: 10vw;
+    text-align: center;
+    transform: none;
+  }
+  .h2 {
+    font-size: 4vw;
+    text-align: center;
+    transform: none;
+  }
+  .h3 {
+    font-size: 4vw;
+    transform: none;
+  }
+  .h4 {
+    font-size: 3vw;
+    width: 90%;
+    transform: none;
+  }
+  .definitions {
+    width: 100%;
+    padding: 5vw;
+    box-sizing: border-box;
+  }
+
+  #layout {
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
   }
 }

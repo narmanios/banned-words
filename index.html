@@ -27,12 +27,11 @@
 
 <body>
     <div class=" grid-wrapper">
-        <h1 class="h1">Banned Words</h1>
         <h2 class="h2">2025 U.S. Grant and Policy</h2>
+
+        <h1 class="h1">Banned Words</h1>
+
         <h3 class="h3">A growing list of 300+ words/terms...<h3>
-                <h4 class="h4">...their year of
-                    origin, definition, and associated themes <br>aimed at eliminating important social issues.<br>
-                </h4>
 
                 <div class="grid-container">
 
@@ -82,6 +81,11 @@
                     <div class="empty"></div>
                     <div class="empty"></div>
                 </div>
+                <h4 class="h4">...their year of
+                    origin, definition, and associated themes <br>aimed at eliminating important social issues.<br>
+                </h4>
+
+
     </div>
 
     </div>
@@ -193,33 +197,35 @@
     <h1 class="header-dark">Word Games</h1>
     <h4 class="h4-themes">...that eliminate social issues</h4>
     <div class="themes">
-        <table id="layout">
 
 
-            <div class="layout-container">
-                <table id="layout">
-                    <tr>
-                        <td id="social-justice" class="theme"><img src="images/social-justice.png" alt="a"></td>
-                        <td id="equality-diversity" class="theme"><img src="images/equity-diversity.png" alt="b"></td>
-                        <td id="cultural-identity" class="theme"><img src="images/cultural-identity.png" alt="c"></td>
-                    </tr>
-                    <tr>
-                        <td id="health-wellbeing" class="theme"><img src="images/health-wellbeing.png" alt="d"></td>
-                        <td id="environmental-issues" class="theme"><img src="images/environmental.png" alt="e"></td>
-                        <td id="bias-discrimination" class="theme"><img src="images/bias.png" alt="f"></td>
-                    </tr>
-                    <tr>
-                        <td id="politics-policy" class="theme"><img src="images/politics-policy.png" alt="i"></td>
-                        <td id="gender-sex" class="theme"><img src="images/gender-sexuality.png" alt="h"></td>
-                        <td id="social-identity" class="theme"><img src="images/social-identity.png" alt="g"></td>
-                    </tr>
-                    <div>
-                        <div id="side-content"></div>
+        <div class="layout-container">
+            <table id="layout">
+                <tr>
+                    <td id="social-justice" class="theme"><img src="images/social-justice.png" alt="a"></td>
+                    <td id="equality-diversity" class="theme"><img src="images/equity-diversity.png" alt="b"></td>
+                    <td id="cultural-identity" class="theme"><img src="images/cultural-identity.png" alt="c"></td>
+                </tr>
+                <tr>
+                    <td id="health-wellbeing" class="theme"><img src="images/health-wellbeing.png" alt="d"></td>
+                    <td id="environmental-issues" class="theme"><img src="images/environmental.png" alt="e"></td>
+                    <td id="bias-discrimination" class="theme"><img src="images/bias.png" alt="f"></td>
+                </tr>
+                <tr>
+                    <td id="politics-policy" class="theme"><img src="images/politics-policy.png" alt="i"></td>
+                    <td id="gender-sex" class="theme"><img src="images/gender-sexuality.png" alt="h"></td>
+                    <td id="social-identity" class="theme"><img src="images/social-identity.png" alt="g"></td>
+                </tr>
+                <div id="pop-up">
+                    <div class="close-button-container">
+                        <button class="close-button" id="close-button-issues">X</button>
                     </div>
-                </table>
+                    <div id="side-content"></div>
+                </div>
+            </table>
 
-            </div>
-        </table>
+        </div>
+
     </div>
 
 
@@ -255,7 +261,7 @@
 
         <p id="mylives"></p>
         <p id="clue">Clue -</p>
-        <canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+        <!-- <canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas> -->
 
         <div class="container">
             <button id="hint">Hint</button>
@@ -370,6 +376,8 @@
                     closeButton.addEventListener('click', function () {
                         wordListContainer.classList.remove('visible');
                     });
+
+
 
                     ////////////////////////////////////
                     function showWordsForLetter(item) {
@@ -545,80 +553,9 @@
         let input;
         let definitionText = {};
 
-        // p5.js setup function
-        function setup() {
-            console.log("setup() is running");
 
-            // let canvas = createCanvas(1200, 600);
-            console.log("Canvas created");
 
-            canvas.parent("game-container");
-            console.log("Canvas attached to game-container");
 
-            background(128, 128, 0);
-
-            input = createInput();
-            input.parent("game-container"); // Attach input field to game-container
-            let containerWidth = select('#game-container').width;
-
-            input.position((containerWidth - input.width) / 2, 80);
-
-            // Create a submit button
-            let submitButton = createButton("Guess");
-            submitButton.parent("game-container"); // Attach button to game-container
-            submitButton.position(input.x + input.width, 80);
-            submitButton.mousePressed(checkGuess);
-
-            // Initialize definitionText with all definitions
-            for (let word of words) {
-                definitionText[word] = definitions[word];
-            }
-        }
-
-        // p5.js draw function
-        function draw() {
-            background(255, 255, 255);
-
-            // Display the words as blanks
-            let yPos = 100;
-            for (let word of words) {
-                let displayWord = "";
-
-                // If the word has been guessed, show the full word
-                if (guessedWords.includes(word)) {
-                    displayWord = word;  // Show the full word
-                } else {
-                    // Find which letters appear more than once in the word
-                    let repeatedLetters = [];
-                    for (let i = 0; i < word.length; i++) {
-                        if (word.indexOf(word[i]) !== word.lastIndexOf(word[i]) && !repeatedLetters.includes(word[i])) {
-                            repeatedLetters.push(word[i]);
-                        }
-                    }
-
-                    // Only display the repeated letters, and hide all other letters
-                    for (let i = 0; i < word.length; i++) {
-                        if (repeatedLetters.includes(word[i])) {
-                            displayWord += word[i] + " ";  // Show the repeated letters
-                        } else {
-                            displayWord += "_ ";  // Hide the non-repeated letters
-                        }
-                    }
-                }
-
-                // Show the word or the definition
-                text(displayWord, width / 2, yPos + 2);
-
-                // Display the definition if the word hasn't been guessed
-                if (!guessedWords.includes(word)) {
-                    textSize(20);
-                    textAlign(CENTER, CENTER);
-                    text(definitionText[word], width / 2, yPos + 30);
-                }
-
-                yPos += 110; // Space out each word and its definition
-            }
-        }
 
         // Check if the guessed word is in the list
         function checkGuess() {
