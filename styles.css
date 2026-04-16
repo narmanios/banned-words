@@ -77,6 +77,10 @@ h4 .attribution {
   color: black;
 }
 
+.word-list-container {
+  position: relative; /* Ensure the container is positioned relative to the grid */
+}
+
 /* Position the word list container above the grid */
 #word-list {
   position: absolute;
@@ -400,6 +404,10 @@ p {
 }
 #pop-up.visible .close-button-container {
   display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-align: right;
 }
 
 body:has(#pop-up.visible) {
@@ -510,7 +518,22 @@ button:hover {
   border: solid 1px var(--white);
   color: var(--base-color);
 }
+.close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  width: unset;
+  position: sticky;
+  top: 0;
+}
 
+.close-button:hover {
+  background: transparent;
+  border: none;
+}
 /* ________________________________ */
 
 #layout {
@@ -653,8 +676,24 @@ li {
 
 .close-button-container {
   display: none;
-  position: sticky;
+  position: absolute;
   top: 0;
+  text-align: right;
+  z-index: 1001;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  display: inline-block;
+}
+
+.close-button img {
+  width: 32px;
+  height: 32px;
+  display: block;
 }
 
 #word-list.visible {
@@ -676,11 +715,21 @@ body:has(#word-list.visible) {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    height: 50vh;
+    max-height: 50vh;
+    padding: 20px;
     width: 100%;
     box-sizing: border-box;
     overflow: scroll;
     z-index: 1000;
+  }
+
+  .close-button-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    height: 100%;
+    bottom: 0;
   }
   .grid-container {
     width: 80vw;

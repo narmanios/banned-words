@@ -94,10 +94,16 @@
 
 
     <div class="word-list" id="word-list">
-        <div class="close-button-container">
-            <button class="close-button" id="close-button">X</button>
+
+        <div id="word-list-content">
+
+            <div class="close-button-container">
+                <button class="close-button" id="close-button">
+                    <img src="images/close.svg" alt="Close">
+                </button>
+            </div>
+
         </div>
-        <div id="word-list-content"></div>
 
     </div>
     <div class="definitions-wrapper">
@@ -175,7 +181,8 @@
         <h4 class="h4-themes">Type a word or term to see if it's currently banned <br>from policy and grant
             applications in 2025.</h4>
         <form autocomplete="off">
-            <div class="input-wrapper"><input type="text" placeholder="Enter a word or term" id="site-search" name="q" /></div>
+            <div class="input-wrapper"><input type="text" placeholder="Enter a word or term" id="site-search"
+                    name="q" /></div>
             <ul class="suggestions"></ul>
         </form>
 
@@ -218,7 +225,9 @@
                 </tr>
                 <div id="pop-up">
                     <div class="close-button-container">
-                        <button class="close-button" id="close-button-issues">X</button>
+                        <button class="close-button" id="close-button-issues">
+                            <img src="images/close.svg" alt="Close">
+                        </button>
                     </div>
                     <div id="side-content"></div>
                 </div>
@@ -296,6 +305,9 @@
 
 
     <script>
+
+
+
         // Force display: flex on the game area
         document.querySelector('.game-area').style.display = 'flex';
     </script>
@@ -309,6 +321,8 @@
 
         const gridItems = document.querySelectorAll('.grid-item');
 
+
+        const closeButtonContainer = document.querySelector('.close-button-container');
         // Function to calculate brightness
         function getBrightness(color) {
             // Convert hex to RGB
@@ -386,8 +400,12 @@
                         // Check if there are words for this letter
                         if (wordsByLetter[letter]) {
                             // Clear the existing content
-                            wordListContent.innerHTML = '';
-
+                            // wordListContent.innerHTML = '';
+                            for (let child of [...wordListContent.children]) {
+                                if (child !== closeButtonContainer) {
+                                    child.remove()
+                                }
+                            }
                             // Append each word_name and date in the list
                             wordsByLetter[letter].forEach(word => {
                                 const wordElement = document.createElement('div');
