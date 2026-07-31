@@ -345,11 +345,11 @@
         // Function to apply heatmap based on word count
         function applyHeatmap(wordsByLetter) {
             if (!wordsByLetter) return;
-            
+
             // Calculate word counts for each letter
             const wordCounts = {};
             let maxCount = 0;
-            
+
             gridItems.forEach(item => {
                 const letter = item.textContent.toLowerCase().trim();
                 const count = wordsByLetter[letter] ? wordsByLetter[letter].length : 0;
@@ -360,7 +360,7 @@
             gridItems.forEach((item) => {
                 const letter = item.textContent.toLowerCase().trim();
                 const count = wordCounts[letter] || 0;
-                
+
                 // Determine color based on word count percentage
                 let color;
                 if (count === 0) {
@@ -368,18 +368,18 @@
                 } else {
                     const percentage = count / maxCount;
                     if (percentage <= 0.25) {
-                        color = heatmapColors[0]; // Light green
+                        color = heatmapColors[0]; // Light red
                     } else if (percentage <= 0.5) {
-                        color = heatmapColors[1]; // Yellow
+                        color = heatmapColors[1]; // Medium red
                     } else if (percentage <= 0.75) {
-                        color = heatmapColors[2]; // Orange
+                        color = heatmapColors[2]; // Dark red
                     } else {
-                        color = heatmapColors[3]; // Red (most words)
+                        color = heatmapColors[3]; // Darkest red (most words)
                     }
                 }
-                
+
                 item.style.backgroundColor = color;
-                
+
                 // Set text color for readability
                 if (count > maxCount * 0.5) {
                     item.classList.add('light-font');
