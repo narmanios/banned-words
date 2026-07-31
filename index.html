@@ -27,64 +27,65 @@
 
 <body>
     <div class=" grid-wrapper">
-        <h2 class="h2">2025 U.S. Grant and Policy</h2>
+        <div class="content">
+            <h2 class="h2">2025 U.S. Grant and Policy</h2>
 
-        <h1 class="h1">Banned Words</h1>
+            <h1 class="h1">Banned Words</h1>
 
-        <h3 class="h3">A growing list of 300+ words/terms...<h3>
+            <h3 class="h3">A growing list of 300+ words/terms...</h3>
 
-                <div class="grid-container">
+            <div class="grid-container">
 
-                    <div class="grid-item">a</div>
-                    <div class="grid-item">b</div>
-                    <div class="grid-item">c</div>
-                    <div class="grid-item">d</div>
-                    <div class="grid-item">e</div>
-                    <div class="grid-item">f</div>
-                    <div class="grid-item">g</div>
-                    <div class="grid-item">h</div>
-                    <div class="grid-item">i</div>
-
-
-                    <div class="empty"></div> <!-- All respect from a distance.-->
-                    <div class="grid-item">j</div>
-                    <div class="grid-item">k</div>
-                    <div class="grid-item">l</div>
-                    <div class="grid-item">m</div>
-                    <div class="grid-item">n</div>
-                    <div class="grid-item">o</div>
-                    <div class="grid-item">p</div>
-                    <div class="empty"></div> <!-- Empty cell for the far right -->
+                <div class="grid-item">a</div>
+                <div class="grid-item">b</div>
+                <div class="grid-item">c</div>
+                <div class="grid-item">d</div>
+                <div class="grid-item">e</div>
+                <div class="grid-item">f</div>
+                <div class="grid-item">g</div>
+                <div class="grid-item">h</div>
+                <div class="grid-item">i</div>
 
 
-                    <div class="empty"></div> <!-- Empty cell for the far left -->
-                    <div class="empty"></div> <!-- Empty cell for the far left -->
-
-                    <div class="grid-item">q</div>
-                    <div class="grid-item">r</div>
-                    <div class="grid-item">s</div>
-                    <div class="grid-item">t</div>
-                    <div class="grid-item">u</div>
-                    <div class="empty"></div> <!-- Empty cell for the far left -->
-
-                    <div class="empty"></div> <!-- Empty cell for the far right -->
+                <div class="empty"></div> <!-- All respect from a distance.-->
+                <div class="grid-item">j</div>
+                <div class="grid-item">k</div>
+                <div class="grid-item">l</div>
+                <div class="grid-item">m</div>
+                <div class="grid-item">n</div>
+                <div class="grid-item">o</div>
+                <div class="grid-item">p</div>
+                <div class="empty"></div> <!-- Empty cell for the far right -->
 
 
-                    <div class="empty"></div>
-                    <div class="empty"></div>
-                    <div class="empty"></div>
-                    <div class="grid-item">v</div>
-                    <div class="grid-item">w</div>
-                    <div class="grid-item-xyz">x y z</div> <!-- "xyz" in a single square -->
+                <div class="empty"></div> <!-- Empty cell for the far left -->
+                <div class="empty"></div> <!-- Empty cell for the far left -->
 
-                    <div class="empty"></div>
-                    <div class="empty"></div>
-                    <div class="empty"></div>
-                </div>
-                <h4 class="h4">...their year of
-                    origin, definition, and associated themes <br>aimed at eliminating important social issues.<br>
-                </h4>
+                <div class="grid-item">q</div>
+                <div class="grid-item">r</div>
+                <div class="grid-item">s</div>
+                <div class="grid-item">t</div>
+                <div class="grid-item">u</div>
+                <div class="empty"></div> <!-- Empty cell for the far left -->
 
+                <div class="empty"></div> <!-- Empty cell for the far right -->
+
+
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="grid-item">v</div>
+                <div class="grid-item">w</div>
+                <div class="grid-item-xyz">x y z</div> <!-- "xyz" in a single square -->
+
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+            </div>
+            <h4 class="h4">...their year of
+                origin, definition, and associated themes <br>aimed at eliminating important social issues.<br>
+            </h4>
+        </div>
 
     </div>
 
@@ -333,17 +334,54 @@
             return 0.299 * r + 0.587 * g + 0.114 * b;
         }
 
-        // Function to randomize the colors for each grid item
-        function applyRandomColors() {
-            gridItems.forEach((item, index) => {
-                // Get a random color from the list
-                const color = colors[Math.floor(Math.random() * colors.length)];
-                // Apply the color to the background
-                item.style.backgroundColor = color;
+        // Heatmap colors: lighter to darker shades of red (indicating fewer to more words)
+        const heatmapColors = [
+            'rgba(255, 0, 0, 0.3)',       // Light red - few words
+            'rgba(220, 0, 0, 0.5)',       // Medium red - moderate words  
+            'rgba(180, 0, 0, 0.75)',      // Dark red - many words
+            'rgba(139, 0, 0, 0.95)'       // Darkest red - most words
+        ];
 
-                // Check the brightness to set the font color accordingly
-                const brightness = getBrightness(color);
-                if (brightness < 128) {
+        // Function to apply heatmap based on word count
+        function applyHeatmap(wordsByLetter) {
+            if (!wordsByLetter) return;
+            
+            // Calculate word counts for each letter
+            const wordCounts = {};
+            let maxCount = 0;
+            
+            gridItems.forEach(item => {
+                const letter = item.textContent.toLowerCase().trim();
+                const count = wordsByLetter[letter] ? wordsByLetter[letter].length : 0;
+                wordCounts[letter] = count;
+                if (count > maxCount) maxCount = count;
+            });
+
+            gridItems.forEach((item) => {
+                const letter = item.textContent.toLowerCase().trim();
+                const count = wordCounts[letter] || 0;
+                
+                // Determine color based on word count percentage
+                let color;
+                if (count === 0) {
+                    color = 'rgba(200, 200, 200, 0.3)'; // Gray for no words
+                } else {
+                    const percentage = count / maxCount;
+                    if (percentage <= 0.25) {
+                        color = heatmapColors[0]; // Light green
+                    } else if (percentage <= 0.5) {
+                        color = heatmapColors[1]; // Yellow
+                    } else if (percentage <= 0.75) {
+                        color = heatmapColors[2]; // Orange
+                    } else {
+                        color = heatmapColors[3]; // Red (most words)
+                    }
+                }
+                
+                item.style.backgroundColor = color;
+                
+                // Set text color for readability
+                if (count > maxCount * 0.5) {
                     item.classList.add('light-font');
                     item.classList.remove('dark-font');
                 } else {
@@ -351,12 +389,7 @@
                     item.classList.remove('light-font');
                 }
             });
-
-
         }
-
-        // Call the function to apply random colors when the page loads
-        applyRandomColors();
 
 
 
@@ -380,21 +413,33 @@
                     // Store the JSON data
                     const wordsByLetter = data;
 
+                    // Apply heatmap colors based on word count
+                    applyHeatmap(wordsByLetter);
+
                     // Add event listeners for each letter in the grid
                     const gridItems = document.querySelectorAll('.grid-item, .grid-item-xyz');
                     const wordListContainer = document.getElementById('word-list');
                     const wordListContent = document.getElementById('word-list-content');
-
-                    // Close button functionality
                     const closeButton = document.getElementById('close-button');
-                    closeButton.addEventListener('click', function () {
-                        wordListContainer.classList.remove('visible');
-                    });
-
-
 
                     ////////////////////////////////////
                     function showWordsForLetter(item) {
+                        // Check if this is the xyz item
+                        if (item.classList.contains('grid-item-xyz')) {
+                            // Clear the existing content
+                            for (let child of [...wordListContent.children]) {
+                                if (child !== closeButtonContainer) {
+                                    child.remove()
+                                }
+                            }
+                            // Show message for xyz
+                            const messageElement = document.createElement('div');
+                            messageElement.textContent = 'No words found for this letter';
+                            wordListContent.appendChild(messageElement);
+                            wordListContainer.classList.add('visible');
+                            return;
+                        }
+
                         const letter = item.textContent.toLowerCase();
 
                         // Check if there are words for this letter
@@ -430,27 +475,45 @@
                     }
                     ///////////////////////////
 
+                    let isSticky = false; // Track if overlay should stay open
 
-
+                    // Touch devices: only click
                     if (isTouchDevice()) {
                         gridItems.forEach(item => {
                             item.addEventListener('click', () => {
+                                isSticky = true;
                                 showWordsForLetter(item);
                             });
                         });
-
                     }
+                    // Non-touch devices: hover + click
                     else {
                         gridItems.forEach(item => {
+                            // Hover shows preview
                             item.addEventListener('mouseover', () => {
-                                showWordsForLetter(item);
-
+                                if (!isSticky) {
+                                    showWordsForLetter(item);
+                                }
                             });
+                            // Mouseout hides only if not sticky
                             item.addEventListener('mouseout', function () {
-                                wordListContainer.classList.remove('visible');
+                                if (!isSticky) {
+                                    wordListContainer.classList.remove('visible');
+                                }
+                            });
+                            // Click makes it sticky
+                            item.addEventListener('click', () => {
+                                isSticky = true;
+                                showWordsForLetter(item);
                             });
                         });
                     }
+
+                    // Close button resets sticky state
+                    closeButton.addEventListener('click', function () {
+                        isSticky = false;
+                        wordListContainer.classList.remove('visible');
+                    });
 
 
                 })
