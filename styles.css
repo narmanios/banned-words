@@ -190,6 +190,17 @@ h4 .attribution {
   }
 }
 
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .grid-item:hover {
   /* font-family: "Playwrite MX Guides", cursive; */
   font-weight: 200;
@@ -207,7 +218,7 @@ h4 .attribution {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(220, 150, 150, 0.4);
   transition: background-color 0.3s; /* Add transition for a smoother hover effect */
   
   /* Animation setup */
@@ -215,7 +226,8 @@ h4 .attribution {
   transform: scale(0.5);
   animation: fadeInScale 0.6s ease-out forwards;
 }
-.ganimation: fadeIn /* Ensure span behaves properly */
+
+.grid-item span {
   filter: blur(3px); /* Apply blur by default */
   transition: filter 0.3s; /* Smooth transition for blur effect */
 }
@@ -229,7 +241,7 @@ h4 .attribution {
   opacity: 0.7;
   font-size: 0.65rem;
 
-  background-color: rgba(0, 0, 0, 0.8); /* Change background color on hover */
+  background-color: rgba(200, 120, 120, 0.6); /* Change background color on hover */
 }
 
 .word-name {
