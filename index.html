@@ -324,6 +324,13 @@
 
 
         const closeButtonContainer = document.querySelector('.close-button-container');
+
+        // Apply random animation delays to all grid items on page load
+        document.querySelectorAll('.grid-item, .grid-item-xyz').forEach((item) => {
+            const randomDelay = Math.random() * 1.2; // Random delay between 0 and 1.2 seconds
+            item.style.animationDelay = `${randomDelay}s`;
+        });
+
         // Function to calculate brightness
         function getBrightness(color) {
             // Convert hex to RGB
@@ -357,7 +364,7 @@
                 if (count > maxCount) maxCount = count;
             });
 
-            gridItems.forEach((item) => {
+            gridItems.forEach((item, index) => {
                 const letter = item.textContent.toLowerCase().trim();
                 const count = wordCounts[letter] || 0;
 
