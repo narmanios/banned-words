@@ -114,7 +114,8 @@ window.onload = function () {
     }
     for (var i = 0; i < geusses.length; i++) {
       if (counter + space === geusses.length) {
-        showLives.innerHTML = "You guessed the banned word(s)!";
+        showLives.innerHTML =
+          "<span style='color: red;'>You guessed the banned word(s)!</span>";
       }
     }
   };
