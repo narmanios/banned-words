@@ -95,7 +95,7 @@ window.onload = function () {
       guess.setAttribute("class", "guess");
       if (word[i] === "-") {
         guess.innerHTML = "-";
-        space = 1;
+        space += 1;
       } else {
         guess.innerHTML = "_";
       }
@@ -112,11 +112,9 @@ window.onload = function () {
     if (lives < 1) {
       showLives.innerHTML = "Game Over";
     }
-    for (var i = 0; i < geusses.length; i++) {
-      if (counter + space === geusses.length) {
-        showLives.innerHTML =
-          "<span style='color: red;'>You guessed the banned word(s)!</span>";
-      }
+    if (counter + space === geusses.length) {
+      showLives.innerHTML =
+        "<span style='color: red;'>You guessed the banned word(s)!</span>";
     }
   };
 
