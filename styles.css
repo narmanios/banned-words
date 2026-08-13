@@ -71,6 +71,40 @@ h2 span {
   text-align: center;
 }
 
+.sources {
+  position: absolute;
+  bottom: 2vh;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+  width: 100%;
+}
+
+.sources p {
+  font-weight: 600;
+  margin-bottom: 0.5vh;
+  font-size: 0.8vw;
+  margin-top: 0;
+}
+
+.sources a {
+  color: black;
+  text-decoration: underline;
+  font-size: 0.9vw;
+  line-height: 1.2;
+}
+
+.sources a:hover {
+  color: #333333;
+}
+
+.sources .pipe-separator {
+  color: black;
+  font-size: 0.9vw;
+}
+
 h4 .attribution {
   font-size: 1vw;
   font-style: italic;
@@ -148,7 +182,7 @@ h4 .attribution {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 6vh;
+  padding-bottom: 0;
   justify-content: center;
   width: 100%;
 }
@@ -898,6 +932,28 @@ body:has(#word-list.visible) {
     font-size: 3vw;
     width: 90%;
     transform: none;
+  }
+  .sources {
+    font-size: 2.5vw;
+    bottom: 0.5vh;
+  }
+  .sources p {
+    font-size: 1.6vw;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .sources a {
+    font-size: 1.6vw;
+    display: block;
+    margin: 0.3vh 0 0 0;
+    padding: 0;
+    line-height: 1.2;
+  }
+  .sources br {
+    display: none;
+  }
+  .sources .pipe-separator {
+    display: none;
   }
   .definitions {
     width: 100%;
